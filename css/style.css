@@ -147,6 +147,13 @@ section.active {
     gap: 5rem;
 }
 
+.home-detail p {
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 1rem; /* espaço entre parágrafos */
+}
+
+
 .home-detail h1 {
     font-size: clamp(3.5rem, 10vw, 5.5rem);
    margin-left: 15px;
