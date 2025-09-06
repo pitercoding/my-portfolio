@@ -402,6 +402,7 @@ p {
   font-size: 1.6rem;
 }
 
+/*Resume*/
 .resume-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -635,6 +636,17 @@ p {
   font-size: 1.8rem;
 }
 
+.resume-detail.about .resume-item a {
+  color: var(--white-color);
+  text-decoration: underline; 
+}
+
+.resume-detail.about .resume-item a:hover {
+  color: var(--main-color); 
+}
+
+
+/*Portfolio*/
 .portfolio-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
