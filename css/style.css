@@ -530,6 +530,18 @@ p {
   line-height: 2.6rem; /* opcional, melhora a leitura */
 }
 
+.project-list {
+  margin: 1.5rem 0;
+  padding-left: 2rem; /* recuo padrão */
+  font-size: 1.6rem;  /* mesmo tamanho do texto */
+  line-height: 1.8;   /* deixa mais espaçado */
+  color: var(--white-color); /* mantém cor igual ao texto */
+}
+
+.project-list li {
+  margin-bottom: 0.8rem; /* espaçamento entre itens */
+}
+
 .portfolio-box .numb {
   font-size: 8rem;
   -webkit-text-stroke: 2px var(--white-color);
