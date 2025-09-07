@@ -456,8 +456,8 @@ p {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 5rem;
-  height: 45rem;
-  overflow: auto;
+  /* height: 45rem;
+  overflow: auto; */
 }
 
 .resume-list::-webkit-scrollbar {
@@ -477,14 +477,10 @@ p {
   background: var(--second-bg-color);
   border-radius: 0.8rem;
   padding: 3rem 2.5rem;
-  height: calc((45rem - 2rem) / 2);
+  height: auto; /* deixa crescer conforme o texto */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  /* max-height: 200px;
-    overflow-y: auto;
-    padding-right: 1rem;
-     */
+  justify-content: flex-start;
 }
 
 .resume-item .year {
