@@ -73,7 +73,9 @@ nav a.active {
 }
 
 #menu-icon {
+  display: none; /* menu hambúrguer em telas grandes por padrão, escondido */
   font-size: 4rem;
+  cursor: pointer;
 }
 
 .bars-box {
@@ -858,7 +860,7 @@ p {
     border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
     text-align: center;
-    display: none;
+    display: none; /* menu principal escondido no mobile até abrir */
   }
 
   nav.active {
@@ -941,12 +943,5 @@ p {
 
   .contact-box h2 {
     font-size: 3.5rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  body {
-    background: lightblue;
-    /* test only */
   }
 }
