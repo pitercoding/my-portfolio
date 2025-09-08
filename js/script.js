@@ -84,7 +84,7 @@ let index = 0;
 // Function to update portfolio
 const activePortfolio = () => {
     // Slide images
-    imgSlide.style.transform = `translateX(calc(${index * -100}% - ${index * 2}rem))`;
+    imgSlide.style.transform = `translateX(${index * -100}%)`;
 
     // Activate portfolio details
     portfolioDetails.forEach(detail => detail.classList.remove('active'));
