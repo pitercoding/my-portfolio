@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
+/* ========================= */
+/*     RESET & VARIÁVEIS     */
+/* ========================= */
 * {
   margin: 0;
   padding: 0;
@@ -26,6 +29,9 @@ body {
   color: var(--white-color);
 }
 
+/* ========================= */
+/*           HEADER          */
+/* ========================= */
 header {
   position: fixed;
   left: 0;
@@ -78,6 +84,9 @@ nav a.active {
   cursor: pointer;
 }
 
+/* ========================= */
+/*       BACKGROUND BARS     */
+/* ========================= */
 .bars-box {
   position: absolute;
   width: 100%;
@@ -119,6 +128,9 @@ nav a.active {
   }
 }
 
+/* ========================= */
+/*          SECTIONS         */
+/* ========================= */
 section {
   position: absolute;
   width: 100%;
@@ -142,6 +154,9 @@ section.active {
   }
 }
 
+/* ========================= */
+/*            HOME           */
+/* ========================= */
 .home {
   display: flex;
   align-items: center;
@@ -259,6 +274,9 @@ p {
   box-shadow: 0 0 1rem var(--main-color);
 }
 
+/* ========================= */
+/*        HOME IMAGE         */
+/* ========================= */
 .home-img .img-box {
   position: relative;
   width: 32vw;
@@ -329,7 +347,9 @@ p {
   color: var(--main-color);
 }
 
-/* About */
+/* ========================= */
+/*           About           */
+/* ========================= */
 .resume-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -504,15 +524,16 @@ p {
 
 .resume-detail.about .resume-item a {
   color: var(--white-color);
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 .resume-detail.about .resume-item a:hover {
-  color: var(--main-color); 
+  color: var(--main-color);
 }
 
-
-/* Portfolio */
+/* ========================= */
+/*         Portfolio         */
+/* ========================= */
 .portfolio-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -535,8 +556,8 @@ p {
 .project-list {
   margin: 1.5rem 0;
   padding-left: 2rem; /* recuo padrão */
-  font-size: 1.6rem;  /* mesmo tamanho do texto */
-  line-height: 1.8;   /* deixa mais espaçado */
+  font-size: 1.6rem; /* mesmo tamanho do texto */
+  line-height: 1.8; /* deixa mais espaçado */
   color: var(--white-color); /* mantém cor igual ao texto */
 }
 
@@ -665,7 +686,9 @@ p {
   margin-left: 1.5rem;
 }
 
-/* Service */
+/* ========================= */
+/*          Service          */
+/* ========================= */
 .services-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -736,7 +759,9 @@ p {
   font-size: 1.6rem;
 }
 
-/* Contact */
+/* ========================= */
+/*          Contact          */
+/* ========================= */
 .contact-container {
   display: grid;
   grid-template-columns: 1fr 1.3fr;
@@ -822,13 +847,18 @@ p {
   cursor: pointer;
 }
 
-/* breakpoints */
+/* ========================= */
+/*       Breakpoints         */
+/* ========================= */
+
+/* Máx. 1200px: reduz fonte base */
 @media screen and (max-width: 1200px) {
   html {
     font-size: 55%;
   }
 }
 
+/* Máx. 992px: ajusta espaçamento geral */
 @media screen and (max-width: 992px) {
   header {
     padding: 2rem 4%;
@@ -839,13 +869,16 @@ p {
   }
 }
 
+/* Máx. 810px: formulário de contato em 1 coluna */
 @media screen and (max-width: 810px) {
   .contact-box .field-box {
     grid-template-columns: 1fr;
   }
 }
 
+/* Máx. 768px: layout mobile principal */
 @media screen and (max-width: 768px) {
+  /* menu mobile */
   #menu-icon {
     display: block;
   }
@@ -860,7 +893,7 @@ p {
     border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
     text-align: center;
-    display: none; /* menu principal escondido no mobile até abrir */
+    display: none; /* escondido até abrir */
   }
 
   nav.active {
@@ -872,6 +905,7 @@ p {
     margin: 4rem 0;
   }
 
+  /* home layout mobile */
   .home {
     flex-direction: column-reverse;
     justify-content: center;
@@ -883,6 +917,7 @@ p {
     height: 35rem;
   }
 
+  /* grid vira 1 coluna */
   .resume-container,
   .portfolio-container,
   .contact-container {
@@ -900,8 +935,26 @@ p {
   .contact-box .field-box {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  /* ajustes do carrossel no mobile */
+  .portfolio-carousel {
+    aspect-ratio: auto; /* remove proporção fixa */
+    height: auto;
+  }
+
+  .portfolio-carousel .img-item {
+    width: 100%;
+    height: auto;
+  }
+
+  .portfolio-carousel .img-item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* mostra a imagem inteira */
+  }
 }
 
+/* Máx. 600px: mais ajustes */
 @media screen and (max-width: 600px) {
   .home-img .img-box {
     width: 30rem;
@@ -911,15 +964,8 @@ p {
   .contact-box .field-box {
     grid-template-columns: 1fr;
   }
-}
 
-@media screen and (max-width: 450px) {
-  html {
-    font-size: 50%;
-  }
-}
-
-@media screen and (max-width: 600px) {
+  /* centralizar textos */
   .home-detail,
   .resume-box h2,
   .resume-box .heading,
@@ -943,5 +989,12 @@ p {
 
   .contact-box h2 {
     font-size: 3.5rem;
+  }
+}
+
+/* Máx. 450px: fonte base menor */
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 50%;
   }
 }
