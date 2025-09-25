@@ -667,7 +667,7 @@ p {
   margin-left: 1.5rem;
 }
 
-/* Service */
+/* Focus */
 .services-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
