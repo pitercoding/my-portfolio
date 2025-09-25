@@ -616,12 +616,12 @@ p {
 
 .portfolio-carousel {
   position: relative;
-  width: 100%;
-  max-width: 600px; /* limite de tamanho */
+  width: clamp(400px, 55%, 700px);
   margin: 0 auto;
   aspect-ratio: 1 / 1; /* quadrado */
   overflow: hidden;
   border-radius: 12px;
+  transition: width 0.5s ease, height 0.5s ease;
 }
 
 .portfolio-carousel .img-slide {
@@ -831,6 +831,7 @@ p {
   }
 }
 
+/* Telas médias */
 @media screen and (max-width: 992px) {
   header {
     padding: 2rem 4%;
@@ -838,6 +839,10 @@ p {
 
   section {
     padding: 10rem 4% 2rem;
+  }
+
+  .portfolio-carousel {
+    width: clamp(350px, 50%, 600px);
   }
 }
 
@@ -847,6 +852,7 @@ p {
   }
 }
 
+/* Telas menores */
 @media screen and (max-width: 768px) {
   #menu-icon {
     display: block;
@@ -899,6 +905,10 @@ p {
     order: 1;
   }
 
+  .portfolio-carousel {
+    width: clamp(250px, 60%, 400px);
+  }
+
   .contact-box .field-box {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -945,5 +955,12 @@ p {
 
   .contact-box h2 {
     font-size: 3.5rem;
+  }
+}
+
+/* Telas muito pequenas */
+@media screen and (max-width: 450px) {
+  .portfolio-carousel {
+    width: clamp(200px, 70%, 300px);
   }
 }
