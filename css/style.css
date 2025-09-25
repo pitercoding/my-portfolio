@@ -617,7 +617,7 @@ p {
 .portfolio-carousel {
   position: relative;
   width: 100%;
-  max-width: 800px; /* opcional: limite de tamanho */
+  max-width: 600px; /* limite de tamanho */
   margin: 0 auto;
   aspect-ratio: 1 / 1; /* quadrado */
   overflow: hidden;
