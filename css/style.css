@@ -844,6 +844,26 @@ p {
   .portfolio-carousel {
     width: clamp(350px, 50%, 600px);
   }
+
+  /* Garante que cada slide ocupe 100% do container */
+  .portfolio-carousel .img-slide {
+    display: flex;
+    width: 100%;
+  }
+
+  .portfolio-carousel .img-item {
+    min-width: 100%;
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+  }
+
+  .portfolio-carousel .img-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
 }
 
 @media screen and (max-width: 810px) {
@@ -886,9 +906,15 @@ p {
     gap: 2rem;
   }
 
+  /* Ajusta a foto de perfil */
   .home-img .img-box {
     width: 35rem;
     height: 35rem;
+  }
+
+  .home-img .img-box .img-item img {
+    object-fit: cover;
+    object-position: center 40%; 
   }
 
   .resume-container,
@@ -909,6 +935,11 @@ p {
     width: clamp(250px, 60%, 400px);
   }
 
+  .portfolio-carousel .img-slide,
+  .portfolio-carousel .img-item {
+    width: 100%;
+  }
+
   .contact-box .field-box {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -920,6 +951,10 @@ p {
     height: 30rem;
   }
 
+  .home-img .img-box .img-item img {
+    object-position: center 45%;
+  }
+
   .contact-box .field-box {
     grid-template-columns: 1fr;
   }
@@ -928,6 +963,15 @@ p {
 @media screen and (max-width: 450px) {
   html {
     font-size: 50%;
+  }
+
+  .portfolio-carousel {
+    width: clamp(200px, 70%, 300px);
+  }
+
+  .portfolio-carousel .img-slide,
+  .portfolio-carousel .img-item {
+    width: 100%;
   }
 }
 
@@ -955,12 +999,5 @@ p {
 
   .contact-box h2 {
     font-size: 3.5rem;
-  }
-}
-
-/* Telas muito pequenas */
-@media screen and (max-width: 450px) {
-  .portfolio-carousel {
-    width: clamp(200px, 70%, 300px);
   }
 }
