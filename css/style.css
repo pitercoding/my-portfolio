@@ -142,6 +142,7 @@ section.active {
   }
 }
 
+/* =========== HOME =========== */
 .home {
   display: flex;
   align-items: center;
@@ -331,7 +332,7 @@ p {
   color: var(--main-color);
 }
 
-/* About */
+/* =========== ABOUT =========== */
 .resume-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -514,7 +515,7 @@ p {
 }
 
 
-/* Portfolio */
+/* =========== PORTFOLIO =========== */
 .portfolio-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -667,7 +668,7 @@ p {
   margin-left: 1.5rem;
 }
 
-/* Focus */
+/* =========== FOCUS =========== */
 .services-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -738,7 +739,7 @@ p {
   font-size: 1.6rem;
 }
 
-/* Contact */
+/* =========== CONTACT =========== */
 .contact-container {
   display: grid;
   grid-template-columns: 1fr 1.3fr;
@@ -824,14 +825,16 @@ p {
   cursor: pointer;
 }
 
-/* breakpoints */
+/* =========== BREAKPOINTS =========== */
+
+/* Laptops e desktops médios */
 @media screen and (max-width: 1200px) {
   html {
     font-size: 55%;
   }
 }
 
-/* Telas médias */
+/* Tablets grandes e laptops menores */
 @media screen and (max-width: 992px) {
   header {
     padding: 2rem 4%;
@@ -845,10 +848,9 @@ p {
     width: clamp(350px, 50%, 600px);
   }
 
-  /* Garante que cada slide ocupe 100% do container */
-  .portfolio-carousel .img-slide {
+  .portfolio-carousel .img-slide { 
     display: flex;
-    width: 100%;
+    width: 100%; /* Cada slide ocupa 100% do container */
   }
 
   .portfolio-carousel .img-item {
@@ -866,13 +868,14 @@ p {
   }
 }
 
+/* Tablets verticais / telas médias menores */
 @media screen and (max-width: 810px) {
   .contact-box .field-box {
     grid-template-columns: 1fr;
   }
 }
 
-/* Telas menores */
+/* Smartphones grandes (modo retrato) */
 @media screen and (max-width: 768px) {
   #menu-icon {
     display: block;
@@ -906,9 +909,8 @@ p {
     gap: 2rem;
   }
 
-  /* Ajusta a foto de perfil */
-  .home-img .img-box {
-    width: 35rem;
+  .home-img .img-box { /* Ajusta a foto de perfil */
+    width: 35rem; 
     height: 35rem;
   }
 
@@ -945,6 +947,7 @@ p {
   }
 }
 
+/* Smartphones médios (Androids e iPhones padrão) */
 @media screen and (max-width: 600px) {
   .home-img .img-box {
     width: 30rem;
@@ -960,6 +963,7 @@ p {
   }
 }
 
+/* Smartphones pequenos / telas compactas */
 @media screen and (max-width: 450px) {
   html {
     font-size: 50%;
