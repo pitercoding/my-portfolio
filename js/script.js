@@ -105,3 +105,14 @@ arrowLeft.addEventListener('click', () => {
 
 // Initialize portfolio
 activePortfolio();
+
+// Navegação pelo teclado
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowRight') {
+        index = (index + 1) % portfolioDetails.length;
+        activePortfolio();
+    } else if (event.key === 'ArrowLeft') {
+        index = (index - 1 + portfolioDetails.length) % portfolioDetails.length;
+    activePortfolio();
+    }
+})
