@@ -63,7 +63,7 @@
       <div class="home-img">
         <div class="img-box">
           <div class="img-item">
-            <img src="./images\piter1.jpg" alt="" />
+            <img src="./images\piter1.jpg" alt="Piter Profile Picture" />
           </div>
         </div>
       </div>
@@ -222,13 +222,13 @@
           <!-- Education -->
           <div class="resume-detail education">
             <h2 class="heading">MY <span>Education</span></h2>
-            <p class="desc">I am currently pursuing a Bachelor in Computer Science, building strong technical foundations in software development while leveraging my previous academic background in science to enhance analytical and problem-solving skills.</p>
+            <p class="desc">I am currently pursuing a Bachelor's degree in Computer Science, building strong technical foundations in software development while leveraging my previous academic background in science to enhance analytical and problem-solving skills.</p>
             <div class="resume-list">
               <div class="resume-item">
                 <p class="year">2023 – 2027 (expected)</p>
                 <h3>Bachelor in Computer Science</h3>
                 <p class="company">Faculdade das Américas (FAM) – São Paulo, Brazil</p>
-                <p>Currently in 6th semester, actively developing programmingskills in Java, Spring Boot, Typescript, Angular and databases through coursework and personal projects.</p>
+                <p>Currently in 6th semester, actively developing programming skills in Java, Spring Boot, Typescript, Angular and databases through coursework and personal projects.</p>
               </div>
               <div class="resume-item">
                 <p class="year">2014 – 2016</p>
@@ -248,19 +248,19 @@
           <!-- Experience -->
           <div class="resume-detail experience">
             <h2 class="heading">MY <span>Experience</span></h2>
-            <p class="desc"> While I am beginning my professional journey in Software Development, my previous roles have equipped me with strong problem-solving, organizational, and communication skills. I am highly motivated to apply my technical knowledge, contribute to real projects, and continue growing through hands-on experience in a collaborative environment.</p>
+            <p class="desc"> While I am beginning my professional journey in software development, my previous roles have equipped me with strong problem-solving, organizational, and communication skills. I am highly motivated to apply my technical knowledge, contribute to real projects, and continue growing through hands-on experience in a collaborative environment.</p>
             <div class="resume-list">
               <div class="resume-item">
-                <p class="year">May 2021 - Present</p>
+                <p class="year">May 2021 – Present</p>
                 <h3>Support Services Specialist</h3>
                 <p class="company">Majorel (Münster, Germany) – English / Portuguese</p>
                 <p>Managed customer requests via phone, email, and chat, optimizing client accounts and campaigns. Developed strong teamwork, problem-solving, and organizational skills, while maintaining high client satisfaction and professional communication.</p>
               </div>
               <div class="resume-item">
-                <p class="year">Jan 2021 - Feb 2021</p>
+                <p class="year">Jan 2021 – Feb 2021</p>
                 <h3>Logistics Staff</h3>
                 <p class="company">Piening Personal (Münster, Germany) – German</p>
-                <p>Organized, sorted, and managed inventory, ensuring efficiencyin operations and accuracy in product handling. Strengthenedattention to detail and process-oriented thinking.</p>
+                <p>Organized, sorted, and managed inventory, ensuring efficiency in operations and accuracy in product handling. Strengthened attention to detail and process-oriented thinking.</p>
               </div>
               <div class="resume-item">
                 <p class="year">Oct 2018 - Jun 2020</p>
@@ -280,21 +280,81 @@
       <h2 class="heading">Latest <span>Projects</span></h2>
       <div class="portfolio-container">
         <div class="portfolio-box">
+          
           <div class="portfolio-detail active">
             <p class="numb">01</p>
-            <h3>Pizzeria Olivetto</h3>
-            <p>Modern, responsive, and elegant website for a fictional artisanal pizzeria in Rio de Janeiro.</p>
+            <h3>Cars Management</h3>
+            <p>Full-stack application for managing cars, brands, owners, and accessories, with CRUD, authentication, and role-based permissions. Deployed on Vercel (frontend) and Render (backend).</p>
             <ul class="project-list">
-              <li>Fullscreen image gallery with modal view.</li>
-              <li>PDF menu directly accessible on the site.</li>
-              <li>Online reservation form integrated via Formspree.</li>
-              <li>Responsive layout with hamburger menu navigation.</li>
-              <li>Deployment on Vercel with continuous GitHub integration.</li>
-              <li>Modular React components (Header, Hero, Menu, Drinks, FAQ, Footer).</li>
-              <li>Optimized for SEO, accessibility, and user experience.</li>
+              <li>Full CRUD for cars, brands, owners, and accessories with MySQL database.</li>
+              <li>Frontend built with Angular and MDB Angular UI Kit, with responsive forms and lists.</li>
+              <li>Backend built with Spring Boot, including JWT authentication, validation, and centralized error handling.</li>
+              <li>Integration between frontend and backend via REST APIs.</li>
+              <li>Deployment practice on AWS, with backend on Render and frontend on Vercel.</li>
             </ul>
             <div class="tech">
-              <p>Next.js and TailwindCSS</p>
+              <p>Angular | TypeScript | SCSS | Spring Boot | MySQL | JWT</p>
+            </div>
+            <div class="live-github">
+              <a href="https://cars-management-six.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
+              <a href="https://github.com/pitercoding/cars-management" target="_blank"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">02</p>
+            <h3>Brincadeiras</h3>
+            <p>App to search and generate creative activity ideas for children, encouraging free play and creativity. Integrated with AI for automatic activity generation.</p>
+            <ul class="project-list">
+              <li>Filter activities by title, age group, and materials.</li>
+              <li>Create, edit, and view activity details through the React frontend.</li>
+              <li>Backend integration (Spring Boot) with MongoDB Atlas for data storage.</li>
+              <li>Automatic activity generation using OpenAI GPT-3.5.</li>
+              <li>Deployment: backend on Render (hibernates on free tier) and frontend on Vercel.</li>
+            </ul>
+            <div class="tech">
+              <p>React | Vite | CSS3 | Spring Boot | MongoDB | OpenAI GPT-3.5</p>
+            </div>
+            <div class="live-github">
+              <a href="https://brincadeiras-backend.onrender.com/" target="_blank"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
+              <a href="https://github.com/pitercoding/brincadeiras" target="_blank"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">03</p>
+            <h3>Fitness Tracker</h3>
+            <p>Full-stack app to track workouts, activities, and personal goals. Users can log entries, set goals, and visualize progress with dynamic charts.</p>
+            <ul class="project-list">
+              <li>Log workouts, activities, and personal goals with forms and validation.</li>
+              <li>Dynamic dashboard displaying statistics and progress using Chart.js.</li>
+              <li>Backend integration with Spring Boot REST APIs and MySQL database.</li>
+              <li>CRUD operations for workouts, activities, goals, and stats.</li>
+              <li>Frontend developed in Angular with Ng Zorro UI components and responsive layouts.</li>
+            </ul>
+            <div class="tech">
+              <p>Angular | TypeScript | SCSS | Chart.js | Spring Boot | MySQL</p>
+            </div>
+            <div class="live-github">
+              <a href="https://github.com/pitercoding/fitness-tracker-app" target="_blank"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
+              <a href="https://github.com/pitercoding/fitness-tracker-app" target="_blank"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
+            </div>
+          </div>
+          
+          <div class="portfolio-detail">
+            <p class="numb">04</p>
+            <h3>Pizzaria Olivetto</h3>
+            <p>Modern, responsive, and elegant website for a fictional artisanal pizzeria. Built to practice Next.js, TailwindCSS, and Vercel deployment.</p>
+            <ul class="project-list">
+              <li>Dynamic, modular React components for Header, Hero, Menu, Drinks, FAQ, and Footer.</li>
+              <li>Responsive layout with mobile-first design and hamburger menu navigation.</li>
+              <li>Online reservation form integrated via Formspree (1–10 people).</li>
+              <li>PDF menu and drinks menu accessible directly on the site.</li>
+              <li>SEO optimized with meta tags and Open Graph image for sharing.</li>
+              <li>Deployed on Vercel with automatic CI/CD from GitHub.</li>
+            </ul>
+            <div class="tech">
+              <p>Next.js | React | TailwindCSS | Formspree | Vercel</p>
             </div>
             <div class="live-github">
               <a href="https://pizzaria-olivetto.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
@@ -303,241 +363,154 @@
           </div>
 
           <div class="portfolio-detail">
-            <p class="numb">02</p>
-            <h3>Library System</h3>
-            <p>Learning project that implements a library management system with database persistence. Runs in the console and allows registering books and users, managing loans and returns, and checking availability.</p>
-            <ul class="project-list">
-              <li>Create CRUD for books and users.</li>
-              <li>Implement business rules.</li>
-              <li>Practice separation of responsibilities in packages.</li>
-              <li>Apply OOP concepts: encapsulation, domain classes, services, and interfaces.</li>
-            </ul>
-            <div class="tech">
-              <p>Java and MySQL</p>
-            </div>
-            <div class="live-github">
-              <a href="https://github.com/pitercoding/sistema-de-biblioteca"target="_blank"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
-              <a href="https://github.com/pitercoding/sistema-de-biblioteca"target="_blank"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
-            </div>
-          </div>
-
-          <div class="portfolio-detail">
-            <p class="numb">03</p>
-            <h3>Gig-Tracker</h3>
-            <p>Interactive website to track live concerts I have attended or wish to see, serving as a personal catalog of bands. Fully developed as part of my programming portfolio.</p>
-            <ul class="project-list">
-              <li>Manipulate DOM, ensure responsiveness, and apply UX/UI best practices with LocalStorage.</li>
-              <li>Implement dynamic search by band name.</li>
-              <li>Create interactive filters by genre and origin.</li>
-              <li>Enable smart sorting by name, genre, or country.</li>
-              <li>Provide light/dark theme with browser storage.</li>
-              <li>Add direct access to bands on Spotify and YouTube.</li>
-              <li>Integrate Last.fm to display current listening activity.</li>
-            </ul>
-            <div class="tech">
-              <p>HTML5, CSS3 and Javascript</p>
-            </div>
-            <div class="live-github">
-              <a href="https://pitercoding.github.io/gig-tracker/"target="_blank"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
-              <a href="https://github.com/pitercoding/gig-tracker"target="_blank"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
-            </div>
-          </div>
-
-          <div class="portfolio-detail">
-            <p class="numb">04</p>
-            <h3>Zoologic</h3>
-            <p>Java project in development that simulates a classification and management system for vertebrate animals of the phylum Chordata. Applies OOP concepts such as encapsulation, inheritance, polymorphism, and package organization.</p>
-            <ul class="project-list">
-              <li>Register and manage mammals.</li>
-              <li>Register and manage birds.</li>
-              <li>Register and manage reptiles.</li>
-              <li>Register and manage fishes.</li>
-              <li>Register and manage amphibians.</li>
-            </ul>
-            <div class="tech">
-              <p>Java</p>
-            </div>
-            <div class="live-github">
-              <a href="https://github.com/pitercoding/Zoologic" target="_blank"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
-              <a href="https://github.com/pitercoding/Zoologic" target="_blank"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
-            </div>
-          </div>
-
-          <div class="portfolio-detail">
             <p class="numb">05</p>
-            <h3>Contact Manager</h3>
-            <p>Simple Python project to manage contacts via the terminal. Allows adding, listing, searching, and removing contacts with data saved in a .txt file.</p>
+            <h3>Customer Manager App</h3>
+            <p>Full-stack application for managing customers efficiently with CRUD operations, built with Angular and Spring Boot, connected to MySQL.</p>
             <ul class="project-list">
-              <li>Manipulate .txt files for data storage.</li>
-              <li>Manage lists and dictionaries efficiently.</li>
-              <li>Implement menu structure and flow control.</li>
-              <li>Validate user inputs properly.</li>
-              <li>Organize code into Python packages.</li>
-              <li>Ensure data persists between executions.</li>
+              <li>Complete CRUD: Create, Read, Update, Delete customers via Angular frontend.</li>
+              <li>Reactive forms with validation and pre-filled data for updates.</li>
+              <li>Responsive UI with modern design and gradients (#654ea3 → #eaafc8).</li>
+              <li>Backend REST API with Spring Boot, validation, and centralized error handling.</li>
+              <li>Integration with MySQL database for persistent data storage.</li>
+              <li>Tested API endpoints with Postman and Angular HttpClientTestingModule.</li>
+              <li>Component-based architecture for maintainability and scalability.</li>
             </ul>
             <div class="tech">
-              <p>Python</p>
+              <p>Angular | TypeScript | SCSS | Spring Boot | Java | MySQL</p>
             </div>
             <div class="live-github">
-              <a href="https://github.com/pitercoding/gerenciador-de-contatos"target="_blank"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
-              <a href="https://github.com/pitercoding/gerenciador-de-contatos"target="_blank"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
+              <a href="https://github.com/pitercoding/customer-manager-app" target="_blank"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
+              <a href="https://github.com/pitercoding/customer-manager-app" target="_blank"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
             </div>
           </div>
 
           <div class="portfolio-detail">
             <p class="numb">06</p>
-            <h3>Spotify Music Player Clone</h3>
-            <p>Functional clone of the Spotify music player, faithfully simulating the playback experience with the main features of the original platform.</p>
+            <h3>Next.js CRUD with Firebase</h3>
+            <p>Client management system built with Next.js, Tailwind CSS, and Firebase Firestore. Allows adding, editing, deleting, and listing clients with responsive design and reusable components.</p>
             <ul class="project-list">
-              <li>Faithful interface inspired by Spotify’s design.</li>
-              <li>Play and pause songs seamlessly.</li>
-              <li>Navigate tracks with next and previous buttons.</li>
-              <li>Interactive progress bar showing elapsed and remaining time.</li>
-              <li>Enable repeat track functionality.</li>
-              <li>Shuffle songs for varied playback.</li>
-              <li>Display album cover and track information clearly.</li>
-              <li>Responsive layout optimized for all screen sizes.</li>
+              <li>Full CRUD operations (Create, Read, Update, Delete) with Firestore.</li>
+              <li>Responsive layout with Tailwind CSS for mobile and desktop.</li>
+              <li>Reusable components: Buttons, Forms, Tables, Layouts, Titles, Icons.</li>
+              <li>Custom React hooks for state and CRUD logic (`useClientes`, `useTabelaOuForm`).</li>
+              <li>Environment variables securely managed via `.env.local`.</li>
+              <li>Modern Next.js architecture with clean folder structure.</li>
+              <li>Integration with Firebase Firestore for persistent storage.</li>
             </ul>
             <div class="tech">
-              <p>HTML5, CSS3 and Javascript</p>
+              <p>Next.js | React | Firebase | Tailwind CSS | TypeScript | PostCSS</p>
             </div>
             <div class="live-github">
-              <a href="https://pitercoding.github.io/PlayerSpotify/all/index.html"target="_blank"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
-              <a href="https://github.com/pitercoding/PlayerSpotify"target="_blank"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
+              <a href="https://next-crud-firebasedb.vercel.app" target="_blank"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
+              <a href="https://github.com/pitercoding/next-crud" target="_blank"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
             </div>
           </div>
 
           <div class="portfolio-detail">
             <p class="numb">07</p>
-            <h3>Integration: Front-End and Back-End</h3>
-            <p>Project connecting a Java Spring Boot backend with a responsive frontend, enabling seamless data flow and interactive user experience.</p>
+            <h3>Userbase</h3>
+            <p>Userbase is a <strong>user registration and management system</strong> built with Java and Spring Boot, using H2 in-memory database. Provides REST endpoints for creating, reading, updating (PUT/PATCH), and deleting users with validation and exception handling.</p>
             <ul class="project-list">
-              <li>Spring Boot backend with RESTful APIs.</li>
-              <li>Frontend consuming APIs with fetch requests and dynamic updates.</li>
-              <li>Form submission with real-time validation and feedback.</li>
-              <li>Responsive layout compatible with mobile, tablet, and desktop.</li>
-              <li>Error handling with informative messages for users.</li>
-              <li>Seamless integration between backend endpoints and frontend components.</li>
-              <li>Deployment-ready structure, optimized for hosting platforms.</li>
+              <li>Full CRUD operations for users with validation.</li>
+              <li>Partial updates supported via PATCH requests.</li>
+              <li>Global exception handling for validation and not-found errors.</li>
+              <li>Unit and integration tests with JUnit 5 & Mockito.</li>
+              <li>H2 in-memory database for fast development and testing.</li>
+              <li>Spring Data JPA and Lombok for clean code and easy persistence.</li>
             </ul>
             <div class="tech">
-              <p>Java, SpringBoot, HTML5, CSS3, Javascript</p>
+              <p>Java | Spring Boot | Spring Data JPA | H2 Database | Lombok | Validation API | JUnit 5 | Mockito | Maven</p>
             </div>
             <div class="live-github">
-              <a href="https://integracao-backend-frontend.vercel.app/"target="_blank"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
-              <a href="https://github.com/pitercoding/integracao-backend-frontend"target="_blank"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
+              <a href="https://github.com/pitercoding/userbase" target="_blank"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
+              <a href="https://github.com/pitercoding/userbase" target="_blank"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
             </div>
           </div>
 
           <div class="portfolio-detail">
             <p class="numb">08</p>
-            <h3>Minesweeper</h3>
-            <p>A classic Minesweeper game implemented in Java Swing, featuring an interactive graphical interface with full win, lose, and automatic restart mechanics.</p>
+            <h3>GigTracker</h3>
+            <p>GigTracker is an <strong>interactive catalog of bands</strong> I’ve seen live and those I dream of seeing. Explore, search, and filter band cards, with direct access to Spotify and YouTube for each band.</p>
             <ul class="project-list">
-                <li>Java Swing graphical interface with interactive grid of cells and mouse controls.</li>
-                <li>MVC-style separation: model (Tabuleiro/Campo) and view (BotaoCampo/PainelTabuleiro/TelaPrincipal).</li>
-                <li>Observer-based event system updating UI on model changes (open, mark, explode, restart).</li>
-                <li>Left-click to open cells and right-click to mark/unmark flags with visual feedback.</li>
-                <li>Win/lose dialogs using JOptionPane and automatic board restart after each game.</li>
-                <li>Configurable board sizes and mine counts, suitable for testing and extension.</li>
-                <li>Ready to run in IntelliJ with Git integration and straightforward project structure.</li>
+              <li>Dynamic search: filter bands by name, genre, or country.</li>
+              <li>Smart sorting: ascending/descending by name, genre, or country.</li>
+              <li>Interactive filters: genres and countries detected automatically.</li>
+              <li>Theme toggle: light/dark mode with preference saved in browser.</li>
+              <li>Direct links to Spotify and YouTube for each band.</li>
+              <li>Last.fm integration to show currently playing music.</li>
             </ul>
             <div class="tech">
-              <p>Java, Swing</p>
+              <p>HTML5 | CSS3 | JavaScript | JSON | LocalStorage | Font Awesome | Last.fm API Widget</p>
             </div>
             <div class="live-github">
-              <a href="https://github.com/pitercoding/campo-minado-swing"target="_blank"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
-              <a href="https://github.com/pitercoding/campo-minado-swing"target="_blank"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
+              <a href="https://pitercoding.github.io/gig-tracker/" target="_blank"><i class="fa-solid fa-arrow-left"></i><span>Live Demo</span></a>
+              <a href="https://github.com/pitercoding/gig-tracker" target="_blank"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
             </div>
           </div>
 
           <div class="portfolio-detail">
             <p class="numb">09</p>
-            <h3>Userbase</h3>
-            <p>A user registration and management system implemented in Java with Spring Boot, using H2 as an in-memory database. Full CRUD.</p>
+            <h3>Old Projects</h3>
+            <p>Smaller and older projects showcasing my early experiments with Java, Python, and web development. Click on the links to view the GitHub repositories.</p>
+          
             <ul class="project-list">
-                <li>RESTful API for user management built with Java and Spring Boot.</li>
-                <li>In-memory H2 database for quick setup and testing.</li>
-                <li>Full CRUD support with PUT and PATCH for flexible updates.</li>
-                <li>Field validation using Jakarta Validation (name, email, password, phone).</li>
-                <li>Global exception handling for validation and not-found errors.</li>
-                <li>Layered architecture with Controller, Service, and Repository.</li>
-                <li>Unit and integration tests using JUnit 5 and Mockito.</li>
-                <li>Lombok to minimize boilerplate code.</li>
-                <li>Testable endpoints via Postman, Insomnia, or curl.</li>
-                <li>H2 console available at <code>http://localhost:8080/h2-console</code>.</li>
+              <li>
+                <strong>Contacts Manager</strong> | Python | CLI
+                <a href="https://github.com/pitercoding/gerenciador-de-contatos" target="_blank"><i class="fa-brands fa-github" style="color: rgb(4, 190, 252);"></i></a>
+              </li>
+              <li>
+                <strong>QRCode Generator</strong> | VueJS 2 | HTML5 | CSS | QRious
+                <a href="https://github.com/pitercoding/qrcode-generator" target="_blank"><i class="fa-brands fa-github" style="color: #42b883;"></i></a>
+              </li>
+              <li>
+                <strong>Front-End & Back-End Integration</strong> | HTML | CSS | JS | Java | Spring Boot
+                <a href="https://github.com/pitercoding/integracao-backend-frontend" target="_blank"><i class="fa-brands fa-github" style="color: #8B4513;"></i></a>
+              </li>
+              <li>
+                <strong>Swing Calculator</strong> | Java | Swing
+                <a href="https://github.com/pitercoding/calculadora-swing" target="_blank"><i class="fa-brands fa-github" style="color: #8B4513;"></i></a>
+              </li>
+              <li>
+                <strong>Minesweeper Swing</strong> | Java | Swing
+                <a href="https://github.com/pitercoding/campo-minado-swing" target="_blank"><i class="fa-brands fa-github" style="color: #8B4513;"></i></a>
+              </li>
+              <li>
+                <strong>JavaFX Login Screen</strong> | Java | JavaFX
+                <a href="https://github.com/pitercoding/tela-de-login-javafx" target="_blank"><i class="fa-brands fa-github" style="color: #8B4513;"></i></a>
+              </li>
+              <li>
+                <strong>Library System</strong> | Java | MySQL
+                <a href="https://github.com/pitercoding/sistema-de-biblioteca" target="_blank"><i class="fa-brands fa-github" style="color: #8B4513;"></i></a>
+              </li>
+              <li>
+                <strong>Zoologic</strong> | Java
+                <a href="https://github.com/pitercoding/zoologic" target="_blank"><i class="fa-brands fa-github" style="color: #8B4513;"></i></a>
+              </li>
+              <li>
+                <strong>Spotify Player Clone</strong> | HTML | CSS | JS
+                <a href="https://github.com/pitercoding/spotify-player-clone" target="_blank"><i class="fa-brands fa-github" style="color: goldenrod;"></i></a>
+              </li>
+              <li>
+                <strong>Magazine E-commerce</strong> | HTML | Tailwind CSS | JS
+                <a href="https://github.com/pitercoding/magazine-e-commerce" target="_blank"><i class="fa-brands fa-github" style="color: goldenrod;"></i></a>
+              </li>
             </ul>
-            <div class="tech">
-              <p>Java, Spring Boot, H2 Database</p>
-            </div>
-            <div class="live-github">
-              <a href="https://github.com/pitercoding/userbase"target="_blank"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
-              <a href="https://github.com/pitercoding/userbase"target="_blank"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
-            </div>
           </div>
-
-          <div class="portfolio-detail">
-            <p class="numb">10</p>
-            <h3>Customer Manager App</h3>
-            <p>Full Stack application developed to manage customers in a simple, modern and efficient way. Manage customers easily and efficiently with a full CRUD, reactive forms, Angular, and Spring Boot</p>
-            <ul class="project-list">
-                <li>Full Stack CRUD app using Angular, Spring Boot, and MySQL.</li>
-                <li>Responsive UI with gradient background and Inter typography.</li>
-                <li>Reactive Forms with validation and visual feedback.</li>
-                <li>REST API for GET, POST, PUT, and DELETE operations.</li>
-                <li>Standalone Angular components and clean architecture.</li>
-                <li>Instant list updates after create, edit, or delete actions.</li>
-                <li>Spring Boot backend with JPA and service layer.</li>
-                <li>MySQL database for persistent customer data.</li>
-                <li>Postman tested endpoints ensuring full CRUD functionality.</li>
-            </ul>
-            <div class="tech">
-              <p>Java, Spring Boot, Angular and MySQL</p>
-            </div>
-            <div class="live-github">
-              <a href="https://github.com/pitercoding/customer-manager-app"target="_blank"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
-              <a href="https://github.com/pitercoding/customer-manager-app"target="_blank"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
-            </div>
-          </div>
-
-          <div class="portfolio-detail">
-            <p class="numb">11</p>
-            <h3>Calculator</h3>
-            <p>Calculadora Swing is a Java Swing app built to practice OOP and the Observer pattern through a simple functional calculator.</p>
-            <ul class="project-list">
-                <li>Java Swing graphical interface with a custom Display and styled Button components for a consistent UI.</li>
-                <li>MVC-inspired separation: model (Memoria / MemoriaObservador) and view (Calculadora / Display / Teclado / Botao).</li>
-                <li>Observer-based reactive updates: Display subscribes to Memoria and refreshes automatically on state changes.</li>
-                <li>Teclado organized with GridBagLayout providing responsive button placement and multi-column buttons (e.g., zero spanning two columns).</li>
-                <li>Complete calculator logic in Memoria: number entry, comma handling, sign toggle (±), AC, operations (+, −, ×, ÷) and equals.</li>
-                <li>Numeric formatting with comma as decimal separator and trimming of unnecessary “,0” trailing decimals.</li>
-                <li>Visual polish: custom Button class sets font, background/foreground and border.</li>
-            </ul>
-            <div class="tech">
-              <p>Java, Swing</p>
-            </div>
-            <div class="live-github">
-              <a href="https://github.com/pitercoding/calculadora-swing"target="_blank"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
-              <a href="https://github.com/pitercoding/calculadora-swing"target="_blank"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
-            </div>
-          </div>
-
+            
         </div>
         <div class="portfolio-box">
           <!-- Images Carousel -->
           <div class="portfolio-carousel">
             <div class="img-slide">
-              <div class="img-item"><img src="\images\projeto1.jpg"/></div>
-              <div class="img-item"><img src="\images\projeto2.jpg"/></div>
-              <div class="img-item"><img src="\images\projeto3.jpg"/></div>
-              <div class="img-item"><img src="\images\projeto4.jpg"/></div>
-              <div class="img-item"><img src="\images\projeto5.jpg"/></div>
-              <div class="img-item"><img src="\images\projeto6.jpg"/></div>
-              <div class="img-item"><img src="\images\projeto7.jpg"/></div>
-              <div class="img-item"><img src="\images\projeto8.jpg"/></div>
-              <div class="img-item"><img src="\images\projeto9.jpg"/></div>
-              <div class="img-item"><img src="\images\projeto10.jpg"/></div>
-              <div class="img-item"><img src="\images\projeto11.jpg"/></div>
+              <div class="img-item"><img src="\images\projeto1.jpg" alt="Cars Management"/></div>
+              <div class="img-item"><img src="\images\projeto2.jpg" alt="Brincadeiras"/></div>
+              <div class="img-item"><img src="\images\projeto3.jpg" alt="Fitness Tracker"/></div>
+              <div class="img-item"><img src="\images\projeto4.jpg" alt="Pizzaria Olivetto"/></div>
+              <div class="img-item"><img src="\images\projeto5.jpg" alt="Customer Manager App"/></div>
+              <div class="img-item"><img src="\images\projeto6.jpg" alt="Next.js CRUD with Firebase"/></div>
+              <div class="img-item"><img src="\images\projeto7.jpg" alt="Userbase"/></div>
+              <div class="img-item"><img src="\images\projeto8.jpg" alt="GigTracker"/></div>
+              <div class="img-item"><img src="\images\projeto9.jpg" alt="old Projetcs"/></div>
             </div>
           </div>
 
@@ -632,10 +605,10 @@
             <h2 class="heading">Contact<span>Me!</span></h2>
             <div class="field-box">
               <input type="text" name="name" placeholder="Full Name" required/>
-              <input type="email"name="email"placeholder="Email Address"required/>
+              <input type="email" name="email" placeholder="Email Address" required/>
               <input type="tel" name="phone" placeholder="Phone Number"/>
-              <input type="text"name="subject"placeholder="Email Subject"required/>
-              <textarea name="message"placeholder="Your Message"required></textarea>
+              <input type="text" name="subject" placeholder="Email Subject" required/>
+              <textarea name="message" placeholder="Your Message" required></textarea>
             </div>
             <button type="submit" class="btn">Send Message</button>
           </form>
