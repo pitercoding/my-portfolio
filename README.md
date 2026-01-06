@@ -1,44 +1,54 @@
 # 💼 My Portfolio
 
-## 🌎 English
+This is my personal portfolio website, developed to showcase my development skills, technologies, projects, and professional background. The design is fully responsive and optimized for both desktop and mobile devices.
 
-This is my personal portfolio website, developed to showcase my web development skills, projects, and professional background. The design is fully responsive and optimized for both desktop and mobile devices.
+👉 [Visit my portfolio](https://portfolio-pitergomes.vercel.app/)
 
-### 🚀 Features
+## 🚀 Features
 - Modern and clean UI  
 - Fully responsive design  
 - Sections for About, Skills, Projects, and Contact  
 - Smooth scrolling and animations  
 - Hosted on Vercel
 
-### 🛠️ Technologies Used
+## 🛠️ Technologies Used
 - **HTML5**
 - **CSS3**
 - **JavaScript**
 - **Vercel** (deployment)
 
-### 🔗 Live Demo
-👉 [Visit my portfolio](https://portfolio-pitergomes.vercel.app/)
+## 🧑‍💻 Author
+
+**Piter Gomes** — Computer Science Student (6th Semester) & Full-Stack Developer
+
+📧 [Email](mailto:piterg.bio@gmail.com) | 💼 [LinkedIn](https://www.linkedin.com/in/piter-gomes-4a39281a1/) | 💻 [GitHub](https://github.com/pitercoding) | 
 
 ---
 
-## 🇧🇷 Português
+# 💼 Meu Portfólio
 
-Este é o meu site de portfólio pessoal, desenvolvido para apresentar minhas habilidades em desenvolvimento web, projetos e trajetória profissional. O design é totalmente responsivo e otimizado para desktop e dispositivos móveis.
+Este é o meu portfólio pessoal, desenvolvido para apresentar minhas habilidades em desenvolvimento, tecnologias, projetos e trajetória profissional. O design é totalmente responsivo e otimizado para desktop e dispositivos móveis.
 
-### 🚀 Funcionalidades
+👉 [Acesse meu portfólio](https://portfolio-pitergomes.vercel.app/)
+
+## 🚀 Funcionalidades
 - Interface moderna e limpa  
 - Design totalmente responsivo  
 - Seções de Sobre, Habilidades, Projetos e Contato  
 - Rolagem suave e animações  
 - Hospedado na Vercel
 
-### 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- **Vercel** (implantação)
+- **Vercel** (deployment)
 
-### 🔗 Demonstração
-👉 [Acesse meu portfólio](https://portfolio-pitergomes.vercel.app/)
+## 🧑‍💻 Autor
+
+**Piter Gomes** — Aluno de Ciências da Computação (6º Período) & Desenvolvedor Full-Stack
+
+📧 [Email](mailto:piterg.bio@gmail.com) | 💼 [LinkedIn](https://www.linkedin.com/in/piter-gomes-4a39281a1/) | 💻 [GitHub](https://github.com/pitercoding) | 
+
+---
 
