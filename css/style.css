@@ -44,7 +44,7 @@ header {
 
 header.active {
   animation: show-header 1.5s linear forwards;
-  animation-delay: 1.2;
+  animation-delay: 1.2s;
 }
 
 @keyframes show-header {
@@ -317,7 +317,7 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 20%;
   top: 0;
   left: 0;
   mix-blend-mode: lighten;
@@ -461,7 +461,17 @@ p {
 }
 
 .resume-detail.skills .resume-item:hover i {
-  color: var(--main-color);
+  filter: brightness(1.1);
+}
+
+.resume-detail.skills .resume-item img.skill-icon {
+  width: 8.5rem;
+  height: 8.5rem;
+  transition: 0.5s;
+}
+
+.resume-detail.skills .resume-item:hover img.skill-icon {
+  filter: brightness(1.1);
 }
 
 .resume-detail.skills .resume-item span {
@@ -483,6 +493,34 @@ p {
   opacity: 1;
   transform: scale(1);
 }
+
+/* Brand colors (Simple Icons) */
+.icon-java { color: #007396; }
+.icon-springboot { color: #6db33f; }
+.icon-angular { color: #dd0031; }
+.icon-typescript { color: #3178c6; }
+.icon-react { color: #61dafb; }
+.icon-nextjs { color: #ffffff; }
+.icon-javascript { color: #f7df1e; }
+.icon-html5 { color: #e34f26; }
+.icon-css3 { color: #1572b6; }
+.icon-tailwindcss { color: #06b6d4; }
+.icon-sass { color: #cc6699; }
+.icon-mysql { color: #4479a1; }
+.icon-mongodb { color: #47a248; }
+.icon-postgresql { color: #4169e1; }
+.icon-docker { color: #2496ed; }
+.icon-git { color: #f05032; }
+.icon-github { color: #ffffff; }
+.icon-vscode { color: #007acc; }
+.icon-intellij { color: #ffffff; }
+.icon-office { color: #d83b01; }
+
+/* Fallback colors for Font Awesome icons */
+.icon-java-fa { color: #007396; }
+.icon-css3-fa { color: #1572b6; }
+.icon-vscode-fa { color: #007acc; }
+.icon-office-fa { color: #d83b01; }
 
 .resume-detail.about .resume-list {
   height: auto;
@@ -645,8 +683,10 @@ p {
 }
 
 .portfolio-box .navigation {
-  text-align: right;
-  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 1.6rem;
 }
 
 .portfolio-box .navigation button {
@@ -665,9 +705,6 @@ p {
   color: var(--disabled-color);
 }
 
-.portfolio-box .navigation .arrow-right {
-  margin-left: 1.5rem;
-}
 
 /* =========== FOCUS =========== */
 .services-container {
@@ -846,7 +883,8 @@ p {
   }
 
   .portfolio-carousel {
-    width: clamp(350px, 50%, 600px);
+    width: clamp(360px, 52%, 560px);
+    max-width: 100%;
   }
 
   .portfolio-carousel .img-slide { 

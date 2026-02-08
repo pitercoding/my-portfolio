@@ -60,12 +60,12 @@ logoLink.addEventListener('click', () => {
 });
 
 // Resume buttons functionality
-const reumeBtns = document.querySelectorAll('.resume-btn');
-reumeBtns.forEach((btn, idx) => {
+const resumeBtns = document.querySelectorAll('.resume-btn');
+resumeBtns.forEach((btn, idx) => {
     btn.addEventListener('click', () => {
         const resumeDetails = document.querySelectorAll('.resume-detail');
 
-        reumeBtns.forEach(btn => btn.classList.remove('active'));
+        resumeBtns.forEach(btn => btn.classList.remove('active'));
         btn.classList.add('active');
 
         resumeDetails.forEach(detail => detail.classList.remove('active'));
