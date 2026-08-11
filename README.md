@@ -28,6 +28,6 @@ This is my personal portfolio website, developed to showcase my development skil
 
 ## 🧑‍💻 Author
 
-**Piter Gomes** — Computer Science Student (6th Semester) & Full-Stack Developer
+**Piter Gomes** — Computer Science Student (7th Semester) & Full-Stack Developer
 
 📧 [Email](mailto:piterg.bio@gmail.com) | 💼 [LinkedIn](https://www.linkedin.com/in/piter-gomes-4a39281a1/) |💻 [GitHub](https://github.com/pitercoding)

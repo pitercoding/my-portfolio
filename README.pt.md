@@ -27,6 +27,6 @@ Este é o meu portfólio pessoal, desenvolvido para apresentar minhas habilidade
 
 ## 🧑‍💻 Autor
 
-**Piter Gomes** — Aluno de Ciências da Computação (6º Período) & Desenvolvedor Full-Stack
+**Piter Gomes** — Aluno de Ciências da Computação (7º Período) & Desenvolvedor Full-Stack
 
 📧 [Email](mailto:piterg.bio@gmail.com) | 💼 [LinkedIn](https://www.linkedin.com/in/piter-gomes-4a39281a1/) | 💻 [GitHub](https://github.com/pitercoding)
