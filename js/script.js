@@ -13,19 +13,13 @@ menuIcon.addEventListener('click', () => {
 // Function to activate page sections
 const activePage = () => {
     const header = document.querySelector('header');
-    const barsBox = document.querySelector('.bars-box');
 
     header.classList.remove('active');
     setTimeout(() => {
         header.classList.add('active');
-    }, 1100);
+    }, 50);
 
     navLinks.forEach(link => link.classList.remove('active'));
-
-    barsBox.classList.remove('active');
-    setTimeout(() => {
-        barsBox.classList.add('active');
-    }, 1100);
 
     sections.forEach(section => section.classList.remove('active'));
 
@@ -42,7 +36,7 @@ navLinks.forEach((link, idx) => {
 
             setTimeout(() => {
                 sections[idx].classList.add('active');
-            }, 1100);
+            }, 50);
         }
     });
 });
@@ -55,7 +49,7 @@ logoLink.addEventListener('click', () => {
 
         setTimeout(() => {
             sections[0].classList.add('active');
-        }, 1100);
+        }, 50);
     }
 });
 

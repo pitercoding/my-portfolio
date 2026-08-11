@@ -25,6 +25,7 @@ html {
 
 body {
   color: var(--white-color);
+  background: var(--bg-color);
 }
 
 header {
@@ -43,8 +44,7 @@ header {
 }
 
 header.active {
-  animation: show-header 1.5s linear forwards;
-  animation-delay: 1.2s;
+  animation: show-header 0.3s linear forwards;
 }
 
 @keyframes show-header {
@@ -79,47 +79,6 @@ nav a.active {
   cursor: pointer;
 }
 
-.bars-box {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  z-index: -1;
-}
-
-.bars-box .bar {
-  width: 100%;
-  height: 100%;
-  background: #1f242d;
-  animation: hide-bars 0.2s ease-in-out both;
-  animation-delay: calc(0.1s * var(--i));
-}
-
-@keyframes hide-bars {
-  0% {
-    transform: translateY(0);
-  }
-
-  100% {
-    transform: translateY(-100%);
-  }
-}
-
-.bars-box.active .bar {
-  animation: show-bars 0.2s ease-in-out both;
-  animation-delay: calc(0.1s * var(--i));
-}
-
-@keyframes show-bars {
-  0% {
-    transform: translateY(-100%);
-  }
-
-  100% {
-    transform: translateY(0%);
-  }
-}
-
 section {
   position: absolute;
   width: 100%;
@@ -131,8 +90,8 @@ section {
 }
 
 section.active {
-  animation: show-content 1.5s linear forwards;
-  animation-delay: 1.6s;
+  animation: show-content 0.3s linear forwards;
+  animation-delay: 0.1s;
 }
 
 @keyframes show-content {
