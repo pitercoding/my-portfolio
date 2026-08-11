@@ -1,1096 +1,951 @@
 ﻿<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Piter Gomes | Software Developer Portfolio</title>
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-    <!-- Simple Icons (brand logos for skills) -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/simple-icons-font@v16/font/simple-icons.min.css"
-    />
-    <!-- Remix Icons -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-  </head>
 
-  <body>
-    <!-- Header -->
-    <header class="active">
-      <a href="#" class="logo">Piter Gomes</a>
-      <i class="fa-solid fa-bars" id="menu-icon"></i>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Piter Gomes | Software Developer Portfolio</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Simple Icons (brand logos for skills) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-icons-font@v16/font/simple-icons.min.css" />
+  <!-- Remix Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+</head>
 
-      <nav>
-        <a href="#" class="active"> Home</a>
-        <a href="#"> About</a>
-        <a href="#"> Portfolio</a>
-        <a href="#"> Focus</a>
-        <a href="#"> Contact</a>
-      </nav>
-    </header>
+<body>
+  <!-- Header -->
+  <header class="active">
+    <a href="#" class="logo">Piter Gomes</a>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
 
-    <!-- Bars background  -->
-    <div class="bars-box active">
-      <div class="bar" style="--i: 6"></div>
-      <div class="bar" style="--i: 5"></div>
-      <div class="bar" style="--i: 4"></div>
-      <div class="bar" style="--i: 3"></div>
-      <div class="bar" style="--i: 2"></div>
-      <div class="bar" style="--i: 1"></div>
+    <nav>
+      <a href="#" class="active"> Home</a>
+      <a href="#"> About</a>
+      <a href="#"> Portfolio</a>
+      <a href="#"> Focus</a>
+      <a href="#"> Contact</a>
+    </nav>
+  </header>
+
+  <!-- Bars background  -->
+  <div class="bars-box active">
+    <div class="bar" style="--i: 6"></div>
+    <div class="bar" style="--i: 5"></div>
+    <div class="bar" style="--i: 4"></div>
+    <div class="bar" style="--i: 3"></div>
+    <div class="bar" style="--i: 2"></div>
+    <div class="bar" style="--i: 1"></div>
+  </div>
+
+  <!-- Home section -->
+  <section class="home active">
+    <div class="home-detail">
+      <h1>PITER GOMES</h1>
+      <h2>
+        I'm a
+        <span style="--i: 1" data-text="Full-Stack Developer">Full-Stack Developer</span>
+      </h2>
+
+      <p>
+        Computer Science student with a strong analytical background, building
+        full-stack applications and transitioning into software development.
+      </p>
+
+      <div class="btn-sci">
+        <a href="images/piter-gomes-cv.pdf" class="btn" target="_blank" rel="noopener noreferrer">Download CV</a>
+        <div class="sci">
+          <a href="https://github.com/pitercoding" target="_blank" rel="noopener noreferrer"><i
+              class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/piter-gomes-4a39281a1/" target="_blank" rel="noopener noreferrer"><i
+              class="fa-brands fa-linkedin"></i></a>
+          <a href="mailto:piterg.bio@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
     </div>
+    <div class="home-img">
+      <div class="img-box">
+        <div class="img-item">
+          <img src="./images\piter1.jpg" alt="Piter Profile Picture" />
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Home section -->
-    <section class="home active">
-      <div class="home-detail">
-        <h1>PITER GOMES</h1>
-        <h2>
-          I'm a
-          <span style="--i: 1" data-text="Full-Stack Developer"
-            >Full-Stack Developer</span
-          >
-        </h2>
+  <!-- Resume section -->
+  <section class="resume">
+    <div class="resume-container">
+      <!-- Left column: Why Hire Me + buttons -->
+      <div class="resume-box">
+        <h2>Why Hire Me</h2>
+        <p class="desc">
+          Building skills in
+          <strong>back-end and front-end development, database management, and
+            project architecture</strong>, I focus on practical, well-structured projects. Explore my work
+          on <strong>GitHub</strong>.
+        </p>
+        <button class="resume-btn active">About Me</button>
+        <button class="resume-btn">Skills</button>
+        <button class="resume-btn">Education</button>
+        <button class="resume-btn">Experience</button>
+      </div>
 
+      <!-- Right column: all resume details -->
+      <div class="resume-box">
+        <!-- About Me -->
+        <div class="resume-detail about active">
+          <h2 class="heading">About <span>Me</span></h2>
+
+          <p class="desc">
+            I am <strong>Piter Gomes</strong>, originally from Brazil and currently based in Germany. I hold a
+            <strong>Bachelor’s in Biological Sciences</strong> and a <strong>Master’s in Oceanography</strong>. I am
+            currently pursuing a <strong>Computer Science degree</strong> while working as a <strong>Full-Stack
+              Development Intern</strong>, gaining hands-on experience building and maintaining web applications across
+            both frontend and backend.
+          </p>
+
+          <p class="desc">
+            I bring my background in <strong>analytical thinking, research, and problem-solving</strong> into my work as
+            a <strong>Full-Stack Development Intern</strong>. Alongside my <strong>Computer Science studies</strong>, I
+            am continuously developing my technical skills and gaining practical experience by contributing to
+            collaborative projects and building reliable, user-focused digital solutions.
+          </p>
+
+
+          <div class="resume-list">
+            <div class="resume-item">
+              <p><span>Name:</span> Piter Gomes</p>
+            </div>
+
+            <div class="resume-item">
+              <p><span>Location:</span> Germany</p>
+            </div>
+
+            <div class="resume-item">
+              <p>
+                <span>Email:</span>
+                <a href="mailto:piterg.bio@gmail.com">piterg.bio@gmail.com</a>
+              </p>
+            </div>
+
+            <div class="resume-item">
+              <p>
+                <span>LinkedIn:</span>
+                <a href="https://www.linkedin.com/in/piter-gomes-4a39281a1/" target="_blank" rel="noopener noreferrer">
+                  View Profile
+                </a>
+              </p>
+            </div>
+
+            <div class="resume-item">
+              <p>
+                <span>GitHub:</span>
+                <a href="https://github.com/pitercoding" target="_blank" rel="noopener noreferrer">
+                  View Projects
+                </a>
+              </p>
+            </div>
+
+            <div class="resume-item">
+              <p>
+                <span>Languages:</span> Portuguese • English • German • Spanish
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Skills -->
+
+        <div class="resume-detail skills">
+          <h2 class="heading">MY <span>Skills</span></h2>
+
+          <p class="desc">
+            Full-Stack development skills with experience in
+            <strong>frontend, backend, databases, and development tools</strong>.
+          </p>
+
+          <div class="resume-list">
+
+            <!-- Backend -->
+            <div class="resume-item">
+              <span>Go</span>
+              <i class="si si-go icon-go"></i>
+            </div>
+
+            <!-- Frontend -->
+            <div class="resume-item">
+              <span>TypeScript</span>
+              <i class="si si-typescript icon-typescript"></i>
+            </div>
+
+            <div class="resume-item">
+              <span>React.js</span>
+              <i class="si si-react icon-react"></i>
+            </div>
+
+            <div class="resume-item">
+              <span>Next.js</span>
+              <i class="si si-nextdotjs icon-nextjs"></i>
+            </div>
+
+            <div class="resume-item">
+              <span>HTML</span>
+              <i class="si si-html5 icon-html5"></i>
+            </div>
+
+            <div class="resume-item">
+              <span>CSS</span>
+              <i class="fa-brands fa-css3-alt icon-css3-fa"></i>
+            </div>
+
+            <div class="resume-item">
+              <span>SCSS</span>
+              <i class="si si-sass icon-sass"></i>
+            </div>
+
+            <!-- Databases -->
+            <div class="resume-item">
+              <span>PostgreSQL</span>
+              <i class="si si-postgresql icon-postgresql"></i>
+            </div>
+
+            <div class="resume-item">
+              <span>MySQL</span>
+              <i class="si si-mysql icon-mysql"></i>
+            </div>
+
+            <div class="resume-item">
+              <span>MongoDB</span>
+              <i class="si si-mongodb icon-mongodb"></i>
+            </div>
+
+            <!-- Tools -->
+            <div class="resume-item">
+              <span>Docker</span>
+              <i class="si si-docker icon-docker"></i>
+            </div>
+
+            <div class="resume-item">
+              <span>Git</span>
+              <i class="si si-git icon-git"></i>
+            </div>
+
+            <div class="resume-item">
+              <span>GitHub</span>
+              <i class="si si-github icon-github"></i>
+            </div>
+
+            <div class="resume-item">
+              <span>VS Code</span>
+              <img class="skill-icon" src="images/visual-studio-code.svg" alt="VS Code" />
+            </div>
+
+            <div class="resume-item">
+              <span>Cloud Code</span>
+              <i class="si si-claude icon-claude"></i>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Education -->
+
+        <div class="resume-detail education">
+          <h2 class="heading">MY <span>Education</span></h2>
+
+          <p class="desc">
+            Currently pursuing a <strong>Bachelor’s Degree in Computer Science</strong>,
+            combining academic training with hands-on experience as a
+            <strong>Full-Stack Development Intern</strong>.
+          </p>
+
+          <div class="resume-list">
+            <div class="resume-item">
+              <p class="year">2023 – 2027 (expected)</p>
+              <h3>Bachelor’s Degree in Computer Science</h3>
+              <p class="company">
+                Faculdade das Américas (FAM) – São Paulo, Brazil
+              </p>
+              <p>
+                Currently in the 7th semester, developing skills in
+                <strong>software development, Go, TypeScript, React,
+                  databases, and REST APIs</strong> through coursework,
+                professional experience, and personal projects.
+              </p>
+            </div>
+
+            <div class="resume-item">
+              <p class="year">2014 – 2016</p>
+              <h3>Master’s Degree in Oceanography</h3>
+              <p class="company">
+                Universidade do Estado do Rio de Janeiro (UERJ) – Rio de Janeiro, Brazil
+              </p>
+              <p>
+                Conducted scientific research, analyzed data, and presented findings
+                at academic conferences, developing strong skills in
+                <strong>research, data analysis, and problem-solving</strong>.
+              </p>
+            </div>
+
+            <div class="resume-item">
+              <p class="year">2008 – 2012</p>
+              <h3>Bachelor’s Degree in Biological Sciences</h3>
+              <p class="company">
+                Souza Marques University – Rio de Janeiro, Brazil
+              </p>
+              <p>
+                Built a strong foundation in biological sciences and scientific
+                research, developing analytical and critical-thinking skills that
+                continue to support my professional development.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <!-- Experience -->
+
+        <div class="resume-detail experience">
+          <h2 class="heading">MY <span>Experience</span></h2>
+
+          <p class="desc">
+            Currently working as a <strong>Full-Stack Development Intern</strong>,
+            applying my Computer Science background to real-world software
+            development. My experience includes <strong>backend development with Go,
+              frontend development with TypeScript, database management, and data
+              analysis</strong>, contributing to technology solutions in a real-world
+            sports analytics platform.
+          </p>
+
+          <div class="resume-list">
+            <!-- Full-Stack Development Internship -->
+            <div class="resume-item">
+              <p class="year">2026 – Present</p>
+              <h3>Full-Stack Development Intern</h3>
+              <p class="company">
+                TipManager – Technology Consulting | Remote
+              </p>
+              <p>
+                Developing and maintaining software solutions across
+                <strong>backend and frontend</strong>, with a focus on
+                <strong>Go, TypeScript, databases, and data analysis</strong>.
+                Applying software engineering principles, programming logic,
+                architecture, and testing practices to real-world projects.
+              </p>
+              <p>
+                Working on a sports analytics platform providing
+                <strong>real-time statistics, data analysis, and AI-powered insights</strong>
+                across multiple sports and esports.
+              </p>
+            </div>
+
+            <!-- Customer Support -->
+            <div class="resume-item">
+              <p class="year">May 2021 – Present</p>
+              <h3>Customer Support Specialist</h3>
+              <p class="company">
+                Majorel – Münster, Germany | English / Portuguese
+              </p>
+              <p>
+                Managed customer requests via phone, email, and chat, supporting
+                client accounts and campaigns. Developed strong
+                <strong>communication, teamwork, organization, and structured
+                  problem-solving</strong> skills while maintaining high customer
+                satisfaction.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio section -->
+  <section class="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <div class="portfolio-detail active">
+          <p class="numb">01</p>
+          <h3>Cars Management</h3>
+          <p>
+            Full-stack application for managing cars, brands, owners, and
+            accessories, with CRUD, authentication, and role-based
+            permissions. Deployed on Vercel (frontend) and Render (backend).
+          </p>
+          <ul class="project-list">
+            <li>
+              Full CRUD for cars, brands, owners, and accessories with MySQL
+              database.
+            </li>
+            <li>
+              Frontend built with Angular and MDB Angular UI Kit, with
+              responsive forms and lists.
+            </li>
+            <li>
+              Backend built with Spring Boot, including JWT authentication,
+              validation, and centralized error handling.
+            </li>
+            <li>Integration between frontend and backend via REST APIs.</li>
+            <li>
+              Deployment practice on AWS, with backend on Render and frontend
+              on Vercel.
+            </li>
+          </ul>
+          <div class="tech">
+            <p>Angular | TypeScript | SCSS | Spring Boot | MySQL | JWT</p>
+          </div>
+          <div class="live-github">
+            <a href="https://cars-management-drab.vercel.app/login" target="_blank" rel="noopener noreferrer"><i
+                class="fa-solid fa-arrow-left"></i><span>Project Page</span></a>
+            <a href="https://github.com/pitercoding/cars-management" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-github"></i><span>Github Repository</span></a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">02</p>
+          <h3>Brincadeiras</h3>
+          <p>
+            App to search and generate creative activity ideas for children,
+            encouraging free play and creativity. Integrated with AI for
+            automatic activity generation.
+          </p>
+          <ul class="project-list">
+            <li>Filter activities by title, age group, and materials.</li>
+            <li>
+              Create, edit, and view activity details through the React
+              frontend.
+            </li>
+            <li>
+              Backend integration (Spring Boot) with MongoDB Atlas for data
+              storage.
+            </li>
+            <li>Automatic activity generation using OpenAI GPT-3.5.</li>
+            <li>
+              Deployment: backend on Render (hibernates on free tier) and
+              frontend on Vercel.
+            </li>
+          </ul>
+          <div class="tech">
+            <p>
+              React | Vite | CSS3 | Spring Boot | MongoDB | OpenAI GPT-3.5
+            </p>
+          </div>
+          <div class="live-github">
+            <a href="https://brincadeiras-backend.onrender.com/" target="_blank" rel="noopener noreferrer"><i
+                class="fa-solid fa-arrow-left"></i><span>Project Page</span></a>
+            <a href="https://github.com/pitercoding/brincadeiras" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-github"></i><span>Github Repository</span></a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">03</p>
+          <h3>Fitness Tracker</h3>
+          <p>
+            Full-stack app to track workouts, activities, and personal goals.
+            Users can log entries, set goals, and visualize progress with
+            dynamic charts.
+          </p>
+          <ul class="project-list">
+            <li>
+              Log workouts, activities, and personal goals with forms and
+              validation.
+            </li>
+            <li>
+              Dynamic dashboard displaying statistics and progress using
+              Chart.js.
+            </li>
+            <li>
+              Backend integration with Spring Boot REST APIs and MySQL
+              database.
+            </li>
+            <li>
+              CRUD operations for workouts, activities, goals, and stats.
+            </li>
+            <li>
+              Frontend developed in Angular with Ng Zorro UI components and
+              responsive layouts.
+            </li>
+          </ul>
+          <div class="tech">
+            <p>
+              Angular | TypeScript | SCSS | Chart.js | Spring Boot | MySQL
+            </p>
+          </div>
+          <div class="live-github">
+            <a href="https://github.com/pitercoding/fitness-tracker-app" target="_blank" rel="noopener noreferrer"><i
+                class="fa-solid fa-arrow-left"></i><span>Project Page</span></a>
+            <a href="https://github.com/pitercoding/fitness-tracker-app" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-github"></i><span>Github Repository</span></a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">04</p>
+          <h3>Pizzaria Olivetto</h3>
+          <p>
+            Modern, responsive, and elegant website for a fictional artisanal
+            pizzeria. Built to practice Next.js, TailwindCSS, and Vercel
+            deployment.
+          </p>
+          <ul class="project-list">
+            <li>
+              Dynamic, modular React components for Header, Hero, Menu,
+              Drinks, FAQ, and Footer.
+            </li>
+            <li>
+              Responsive layout with mobile-first design and hamburger menu
+              navigation.
+            </li>
+            <li>
+              Online reservation form integrated via Formspree (1–10 people).
+            </li>
+            <li>PDF menu and drinks menu accessible directly on the site.</li>
+            <li>
+              SEO optimized with meta tags and Open Graph image for sharing.
+            </li>
+            <li>Deployed on Vercel with automatic CI/CD from GitHub.</li>
+          </ul>
+          <div class="tech">
+            <p>Next.js | React | TailwindCSS | Formspree | Vercel</p>
+          </div>
+          <div class="live-github">
+            <a href="https://pizzaria-olivetto.vercel.app/" target="_blank" rel="noopener noreferrer"><i
+                class="fa-solid fa-arrow-left"></i><span>Project Page</span></a>
+            <a href="https://github.com/pitercoding/pizzaria-olivetto" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-github"></i><span>Github Repository</span></a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">05</p>
+          <h3>Customer Manager App</h3>
+          <p>
+            Full-stack application for managing customers efficiently with
+            CRUD operations, built with Angular and Spring Boot, connected to
+            PostgreSQL.
+          </p>
+          <ul class="project-list">
+            <li>
+              Complete CRUD: Create, Read, Update, Delete customers via
+              Angular frontend.
+            </li>
+            <li>
+              Reactive forms with validation and pre-filled data for updates.
+            </li>
+            <li>Responsive UI with modern design.</li>
+            <li>
+              Backend REST API with Spring Boot, validation, and centralized
+              error handling.
+            </li>
+            <li>
+              Integration with PostgreSQL database for persistent data
+              storage.
+            </li>
+            <li>
+              Tested API endpoints with Postman and Angular
+              HttpClientTestingModule.
+            </li>
+            <li>
+              Component-based architecture for maintainability and
+              scalability.
+            </li>
+          </ul>
+          <div class="tech">
+            <p>
+              Angular | TypeScript | SCSS | Spring Boot | Java | PostgreSQL
+            </p>
+          </div>
+          <div class="live-github">
+            <a href="https://customer-manager-app-three.vercel.app/" target="_blank" rel="noopener noreferrer"><i
+                class="fa-solid fa-arrow-left"></i><span>Project Page</span></a>
+            <a href="https://github.com/pitercoding/customer-manager-app" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-github"></i><span>Github Repository</span></a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">06</p>
+          <h3>Springular AI</h3>
+          <p>
+            Springular AI is a <strong>full-stack AI chat app</strong> built
+            with Spring AI (Java) on the backend and Angular on the frontend.
+            It includes a stateless simple chat and a memory chat with
+            conversation history stored in a database.
+          </p>
+          <ul class="project-list">
+            <li>Simple chat (stateless) and memory chat (persisted).</li>
+            <li>Spring AI integration with OpenAI models.</li>
+            <li>Chat memory persisted with MySQL.</li>
+            <li>Angular standalone components with Signals and Effects.</li>
+            <li>Clean backend architecture with RESTful APIs.</li>
+            <li>Docker Compose for local database setup.</li>
+          </ul>
+          <div class="tech">
+            <p>
+              Java | Spring Boot | Spring AI | OpenAI | Angular | TypeScript |
+              MySQL | Docker
+            </p>
+          </div>
+          <div class="live-github">
+            <a href="https://github.com/pitercoding/springular-ai" target="_blank" rel="noopener noreferrer"><i
+                class="fa-solid fa-arrow-left"></i><span>Project Page</span></a>
+            <a href="https://github.com/pitercoding/springular-ai" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-github"></i><span>Github Repository</span></a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">07</p>
+          <h3>Next.js CRUD with Firebase</h3>
+          <p>
+            Client management system built with Next.js, Tailwind CSS, and
+            Firebase Firestore. Allows adding, editing, deleting, and listing
+            clients with responsive design and reusable components.
+          </p>
+          <ul class="project-list">
+            <li>
+              Full CRUD operations (Create, Read, Update, Delete) with
+              Firestore.
+            </li>
+            <li>
+              Responsive layout with Tailwind CSS for mobile and desktop.
+            </li>
+            <li>
+              Reusable components: Buttons, Forms, Tables, Layouts, Titles,
+              Icons.
+            </li>
+            <li>
+              Custom React hooks for state and CRUD logic (`useClientes`,
+              `useTabelaOuForm`).
+            </li>
+            <li>Environment variables securely managed via `.env.local`.</li>
+            <li>Modern Next.js architecture with clean folder structure.</li>
+            <li>
+              Integration with Firebase Firestore for persistent storage.
+            </li>
+          </ul>
+          <div class="tech">
+            <p>
+              Next.js | React | Firebase | Tailwind CSS | TypeScript | PostCSS
+            </p>
+          </div>
+          <div class="live-github">
+            <a href="https://next-crud-firebasedb.vercel.app" target="_blank" rel="noopener noreferrer"><i
+                class="fa-solid fa-arrow-left"></i><span>Project Page</span></a>
+            <a href="https://github.com/pitercoding/next-crud" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-github"></i><span>Github Repository</span></a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">08</p>
+          <h3>Worklog</h3>
+          <p>
+            Full-stack application for daily activity tracking, allowing employees to register tasks by Program, Team,
+            Language, Activity, and Subactivity with automatic time tracking.
+          </p>
+          <ul class="project-list">
+            <li>
+              Starts a new activity while automatically closing the currently
+              running one.
+            </li>
+            <li>
+              The <strong>Save Day</strong> action finalizes the workday and
+              closes any open activity.
+            </li>
+            <li>
+              Daily history showing activity durations and highlighting the
+              currently running task.
+            </li>
+            <li>
+              Backend business rules ensure only one open activity at a time
+              and one workday per employee per date.
+            </li>
+            <li>
+              Lookup APIs for programs, teams, languages, activities, and
+              dependent subactivities.
+            </li>
+            <li>
+              Global API exception handling with standardized error responses
+              and frontend toast notifications.
+            </li>
+            <li>
+              Responsive and modern UI.
+            </li>
+          </ul>
+          <div class="tech">
+            <p>
+              Java | Spring Boot | PostgreSQL | Angular | TypeScript | SCSS |
+              RxJS
+            </p>
+          </div>
+          <div class="live-github">
+            <a href="https://github.com/pitercoding/worklog" target="_blank" rel="noopener noreferrer"><i
+                class="fa-solid fa-arrow-left"></i><span>Project Page</span></a>
+            <a href="https://github.com/pitercoding/worklog" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-github"></i><span>Github Repository</span></a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">09</p>
+          <h3>Other Projects</h3>
+          <p>
+            Smaller and older projects showcasing my early experiments with
+            Java, Python, and web development. Click on the links to view the
+            GitHub repositories.
+          </p>
+
+          <ul class="project-list">
+            <li>
+              <strong>Contacts Manager</strong> | Python | CLI
+              <a href="https://github.com/pitercoding/gerenciador-de-contatos" target="_blank"
+                rel="noopener noreferrer"><i class="fa-brands fa-github" style="color: rgb(4, 190, 252)"></i></a>
+            </li>
+            <li>
+              <strong>QRCode Generator</strong> | VueJS 2 | HTML5 | CSS |
+              QRious
+              <a href="https://github.com/pitercoding/qrcode-generator" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-github" style="color: #42b883"></i></a>
+            </li>
+            <li>
+              <strong>Front-End & Back-End Integration</strong> | HTML | CSS |
+              JS | Java | Spring Boot
+              <a href="https://github.com/pitercoding/integracao-backend-frontend" target="_blank"
+                rel="noopener noreferrer"><i class="fa-brands fa-github" style="color: #8b4513"></i></a>
+            </li>
+            <li>
+              <strong>Swing Calculator</strong> | Java | Swing
+              <a href="https://github.com/pitercoding/calculadora-swing" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-github" style="color: #8b4513"></i></a>
+            </li>
+            <li>
+              <strong>Minesweeper Swing</strong> | Java | Swing
+              <a href="https://github.com/pitercoding/campo-minado-swing" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-github" style="color: #8b4513"></i></a>
+            </li>
+            <li>
+              <strong>JavaFX Login Screen</strong> | Java | JavaFX
+              <a href="https://github.com/pitercoding/tela-de-login-javafx" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-github" style="color: #8b4513"></i></a>
+            </li>
+            <li>
+              <strong>Library System</strong> | Java | MySQL
+              <a href="https://github.com/pitercoding/sistema-de-biblioteca" target="_blank"
+                rel="noopener noreferrer"><i class="fa-brands fa-github" style="color: #8b4513"></i></a>
+            </li>
+            <li>
+              <strong>Zoologic</strong> | Java
+              <a href="https://github.com/pitercoding/zoologic" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-github" style="color: #8b4513"></i></a>
+            </li>
+            <li>
+              <strong>Userbase</strong> | Java | Spring Boot | H2
+              <a href="https://github.com/pitercoding/userbase" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-github" style="color: #8b4513"></i></a>
+            </li>
+            <li>
+              <strong>The Terminal Awakens</strong> | Java | Terminal RPG
+              <a href="https://github.com/pitercoding/the-terminal-awakens" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-github" style="color: #8b4513"></i></a>
+            </li>
+            <li>
+              <strong>Spotify Player Clone</strong> | HTML5 | CSS3 | JS
+              <a href="https://github.com/pitercoding/spotify-player-clone" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-github" style="color: goldenrod"></i></a>
+            </li>
+            <li>
+              <strong>Magazine E-commerce</strong> | HTML5 | Tailwind CSS3 |
+              JS
+              <a href="https://github.com/pitercoding/magazine-e-commerce" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-github" style="color: goldenrod"></i></a>
+            </li>
+            <li>
+              <strong>Gig-Tracker</strong> | HTML5 | CSS3 | JS
+              <a href="https://github.com/pitercoding/gig-tracker" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-github" style="color: goldenrod"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <!-- Images Carousel -->
+        <div class="portfolio-carousel">
+          <div class="img-slide">
+            <div class="img-item">
+              <img src="\images\projeto1.jpg" alt="Cars Management" />
+            </div>
+            <div class="img-item">
+              <img src="\images\projeto2.jpg" alt="Brincadeiras" />
+            </div>
+            <div class="img-item">
+              <img src="\images\projeto3.jpg" alt="Fitness Tracker" />
+            </div>
+            <div class="img-item">
+              <img src="\images\projeto4.jpg" alt="Pizzaria Olivetto" />
+            </div>
+            <div class="img-item">
+              <img src="\images\projeto5.jpg" alt="Customer Manager App" />
+            </div>
+            <div class="img-item">
+              <img src="\images\projeto6.jpg" alt="Springular AI" />
+            </div>
+            <div class="img-item">
+              <img src="\images\projeto7.jpg" alt="Next.js CRUD with Firebase" />
+            </div>
+            <div class="img-item">
+              <img src="\images\projeto8.jpg" alt="GigTracker" />
+            </div>
+            <div class="img-item">
+              <img src="\images\projeto9.jpg" alt="Other Projects" />
+            </div>
+          </div>
+        </div>
+
+        <div class="navigation">
+          <button class="arrow-left">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="arrow-right">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Focus section -->
+
+  <section class="services">
+    <h2 class="heading">Areas of <span>Focus</span></h2>
+
+    <div class="services-container">
+      <div class="services-box">
+        <div class="icon">
+          <i class="fa-solid fa-code"></i>
+        </div>
+        <h3>Full-Stack Development</h3>
         <p>
-          Computer Science student with a strong analytical background, building
-          full-stack applications and transitioning into software development.
+          Building web applications across <strong>frontend and backend</strong>,
+          using technologies such as <strong>TypeScript, React, Go</strong>, and
+          RESTful APIs, with a focus on clean and maintainable code.
+        </p>
+      </div>
+
+      <div class="services-box">
+        <div class="icon">
+          <i class="fa-solid fa-server"></i>
+        </div>
+        <h3>Backend & APIs</h3>
+        <p>
+          Developing backend services with <strong>Go</strong>, designing
+          <strong>RESTful APIs</strong>, integrating databases, and applying
+          software engineering principles to build reliable and scalable
+          applications.
+        </p>
+      </div>
+
+      <div class="services-box">
+        <div class="icon">
+          <i class="fa-solid fa-database"></i>
+        </div>
+        <h3>Data & Databases</h3>
+        <p>
+          Working with <strong>PostgreSQL, MySQL, and MongoDB</strong> to
+          structure, manage, and analyze data, with a growing focus on
+          <strong>data-driven applications and real-time information</strong>.
+        </p>
+      </div>
+
+      <div class="services-box">
+        <div class="icon">
+          <i class="fa-solid fa-lightbulb"></i>
+        </div>
+        <h3>Problem Solving</h3>
+        <p>
+          Applying <strong>logical thinking, software engineering principles,
+            and analytical skills</strong> to understand problems and develop
+          structured, practical, and effective solutions.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Contact section -->
+
+  <section class="contact">
+    <div class="contact-container">
+      <div class="contact-box">
+        <h2>Let's Work Together</h2>
+        
+        <p>
+          I’m open to new opportunities, collaborations, and interesting
+          projects in technology. If you’d like to discuss an opportunity,
+          share an idea, or simply connect, feel free to get in touch.
         </p>
 
-        <div class="btn-sci">
-          <a
-            href="images/piter-gomes-cv.pdf"
-            class="btn"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Download CV</a
-          >
-          <div class="sci">
-            <a
-              href="https://github.com/pitercoding"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><i class="fa-brands fa-github"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/piter-gomes-4a39281a1/"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><i class="fa-brands fa-linkedin"></i
-            ></a>
-            <a href="mailto:piterg.bio@gmail.com"
-              ><i class="fa-solid fa-envelope"></i
-            ></a>
+        <div class="contact-detail">
+          <i class="fa-solid fa-envelope"></i>
+          <div class="detail">
+            <p>Email</p>
+            <p>
+              <a href="mailto:piterg.bio@gmail.com">
+                piterg.bio@gmail.com
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <i class="fa-solid fa-location-dot"></i>
+          <div class="detail">
+            <p>Location</p>
+            <p>Germany</p>
           </div>
         </div>
       </div>
-      <div class="home-img">
-        <div class="img-box">
-          <div class="img-item">
-            <img src="./images\piter1.jpg" alt="Piter Profile Picture" />
+
+      <div class="contact-box">
+        <form action="https://formspree.io/f/meolpbwn" method="POST">
+          <h2 class="heading">Contact<span>Me!</span></h2>
+
+          <div class="field-box">
+            <input type="text" name="name" placeholder="Full Name" required />
+
+            <input type="email" name="email" placeholder="Email Address" required />
+
+            <input type="tel" name="phone" placeholder="Phone Number" />
+
+            <input type="text" name="subject" placeholder="Email Subject" required />
+
+            <textarea name="message" placeholder="Your Message" required></textarea>
           </div>
-        </div>
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
       </div>
-    </section>
 
-    <!-- Resume section -->
-    <section class="resume">
-      <div class="resume-container">
-        <!-- Left column: Why Hire Me + buttons -->
-        <div class="resume-box">
-          <h2>Why Hire Me</h2>
-          <p class="desc">
-            Building skills in
-            <strong
-              >back-end and front-end development, database management, and
-              project architecture</strong
-            >, I focus on practical, well-structured projects. Explore my work
-            on <strong>GitHub</strong>.
-          </p>
-          <button class="resume-btn active">About Me</button>
-          <button class="resume-btn">Skills</button>
-          <button class="resume-btn">Education</button>
-          <button class="resume-btn">Experience</button>
-        </div>
+    </div>
+  </section>
 
-        <!-- Right column: all resume details -->
-        <div class="resume-box">
-          <!-- About Me -->
-          <div class="resume-detail about active">
-            <h2 class="heading">About <span>Me</span></h2>
 
-            <p class="desc">
-              I am <strong>Piter Gomes</strong>, originally from Rio de Janeiro,
-              Brazil, and currently based in Münster, Germany. I hold a
-              <strong>Bachelor’s in Biological Sciences</strong> and a
-              <strong>Master’s in Oceanography</strong>, and I am now moving
-              into tech as a <strong>Computer Science student</strong> and
-              aspiring <strong>Full-Stack Developer</strong>.
-            </p>
+  <!-- custom js -->
+  <script src="js/script.js"></script>
+</body>
 
-            <p class="desc">
-              I apply my background in
-              <strong
-                >analytical thinking, research, and problem-solving</strong
-              >
-              to my technical training. My goal is to contribute to
-              collaborative projects while continuously improving my coding
-              skills to build impactful digital solutions.
-            </p>
-
-            <div class="resume-list">
-              <div class="resume-item">
-                <p><span>Name:</span> Piter Gomes</p>
-              </div>
-              <div class="resume-item">
-                <p><span>City:</span> Münster</p>
-              </div>
-              <div class="resume-item">
-                <p>
-                  <span>Email:</span
-                  ><a href="mailto:piterg.bio@gmail.com"
-                    >piterg.bio@gmail.com</a
-                  >
-                </p>
-              </div>
-              <div class="resume-item">
-                <p>
-                  <span>LinkedIn:</span
-                  ><a href="https://www.linkedin.com/in/piter-gomes-4a39281a1/"
-                    >Profile</a
-                  >
-                </p>
-              </div>
-              <div class="resume-item">
-                <p>
-                  <span>GitHub:</span
-                  ><a href="https://github.com/pitercoding">Profile</a>
-                </p>
-              </div>
-              <div class="resume-item">
-                <p>
-                  <span>Languages:</span> Portuguese • English • German •
-                  Spanish
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Skills -->
-          <div class="resume-detail skills">
-            <h2 class="heading">MY <span>Skills</span></h2>
-            <p class="desc">
-              I am continuously improving my software development skills, with
-              hands-on experience in both front-end and back-end technologies. I
-              stay dedicated to learning new frameworks and tools while building
-              personal projects to strengthen my knowledge.
-            </p>
-            <div class="resume-list">
-              <div class="resume-item">
-                <span>Java</span>
-                <i class="fa-brands fa-java icon-java-fa"></i>
-              </div>
-              <div class="resume-item">
-                <span>Spring Boot</span>
-                <i class="si si-springboot icon-springboot"></i>
-              </div>
-              <div class="resume-item">
-                <span>Angular</span>
-                <i class="si si-angular icon-angular"></i>
-              </div>
-              <div class="resume-item">
-                <span>TypeScript</span>
-                <i class="si si-typescript icon-typescript"></i>
-              </div>
-              <div class="resume-item">
-                <span>React.js</span>
-                <i class="si si-react icon-react"></i>
-              </div>
-              <div class="resume-item">
-                <span>Next.js</span>
-                <i class="si si-nextdotjs icon-nextjs"></i>
-              </div>
-              <div class="resume-item">
-                <span>JavaScript</span>
-                <i class="si si-javascript icon-javascript"></i>
-              </div>
-              <div class="resume-item">
-                <span>HTML</span>
-                <i class="si si-html5 icon-html5"></i>
-              </div>
-              <div class="resume-item">
-                <span>CSS</span>
-                <i class="fa-brands fa-css3-alt icon-css3-fa"></i>
-              </div>
-              <div class="resume-item">
-                <span>Tailwind CSS</span>
-                <i class="si si-tailwindcss icon-tailwindcss"></i>
-              </div>
-
-              <div class="resume-item">
-                <span>SCSS</span>
-                <i class="si si-sass icon-sass"></i>
-              </div>
-
-              <div class="resume-item">
-                <span>MySQL</span>
-                <i class="si si-mysql icon-mysql"></i>
-              </div>
-              <div class="resume-item">
-                <span>MongoDB</span>
-                <i class="si si-mongodb icon-mongodb"></i>
-              </div>
-              <div class="resume-item">
-                <span>PostgreSQL</span>
-                <i class="si si-postgresql icon-postgresql"></i>
-              </div>
-
-              <div class="resume-item">
-                <span>Docker</span>
-                <i class="si si-docker icon-docker"></i>
-              </div>
-              <div class="resume-item">
-                <span>Git</span>
-                <i class="si si-git icon-git"></i>
-              </div>
-              <div class="resume-item">
-                <span>GitHub</span>
-                <i class="si si-github icon-github"></i>
-              </div>
-              <div class="resume-item">
-                <span>VS Code</span>
-                <img
-                  class="skill-icon"
-                  src="images/visual-studio-code.svg"
-                  alt="VS Code"
-                />
-              </div>
-              <div class="resume-item">
-                <span>IntelliJ IDEA</span>
-                <i class="si si-intellijidea icon-intellij"></i>
-              </div>
-              <div class="resume-item">
-                <span>Microsoft Office</span>
-                <i class="fa-solid fa-file-lines icon-office-fa"></i>
-              </div>
-            </div>
-          </div>
-
-          <!-- Education -->
-          <div class="resume-detail education">
-            <h2 class="heading">MY <span>Education</span></h2>
-            <p class="desc">
-              I am currently pursuing a Bachelor's degree in Computer Science,
-              building strong technical foundations in software development
-              while leveraging my previous academic background in science to
-              enhance analytical and problem-solving skills.
-            </p>
-            <div class="resume-list">
-              <div class="resume-item">
-                <p class="year">2023 – 2027 (expected)</p>
-                <h3>Bachelor in Computer Science</h3>
-                <p class="company">
-                  Faculdade das Américas (FAM) – São Paulo, Brazil
-                </p>
-                <p>
-                  Currently in 6th semester, actively developing programming
-                  skills in Java, Spring Boot, Typescript, Angular and databases
-                  through coursework and personal projects.
-                </p>
-              </div>
-              <div class="resume-item">
-                <p class="year">2014 – 2016</p>
-                <h3>Master’s in Oceanography</h3>
-                <p class="company">
-                  Universidade do Estado do Rio de Janeiro (UERJ) – Rio de
-                  Janeiro, Brazil
-                </p>
-                <p>
-                  Conducted research on phytoplankton communities, performed
-                  data analysis, and presented findings at scientific
-                  conferences. Developed strong research, analytical, and
-                  teamwork skills.
-                </p>
-              </div>
-              <div class="resume-item">
-                <p class="year">2008 – 2012</p>
-                <h3>Bachelor’s Degree in Biological Sciences</h3>
-                <p class="company">
-                  Souza Marques University – Rio de Janeiro, Brazil
-                </p>
-                <p>
-                  Gained foundational knowledge in biology and scientific
-                  research methods, building analytical thinking and
-                  problem-solving abilities applied in later academic and
-                  professional experiences.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Experience -->
-          <div class="resume-detail experience">
-            <h2 class="heading">MY <span>Experience</span></h2>
-            <p class="desc">
-              I am seeking a <strong>Software Development Internship</strong>.
-              While I am early in my tech journey, my previous roles
-              strengthened my problem-solving, organization, and communication
-              skills. I am motivated to apply my technical knowledge, contribute
-              to real projects, and keep growing through hands-on experience in
-              a collaborative environment.
-            </p>
-            <div class="resume-list">
-              <div class="resume-item">
-                <p class="year">May 2021 – Present</p>
-                <h3>Customer Support Specialist</h3>
-                <p class="company">
-                  Majorel (Münster, Germany) – English / Portuguese
-                </p>
-                <p>
-                  Managed customer requests via phone, email, and chat,
-                  improving client accounts and campaigns. Strengthened
-                  communication, teamwork, and structured problem-solving while
-                  maintaining high customer satisfaction.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Portfolio section -->
-    <section class="portfolio">
-      <h2 class="heading">Latest <span>Projects</span></h2>
-      <div class="portfolio-container">
-        <div class="portfolio-box">
-          <div class="portfolio-detail active">
-            <p class="numb">01</p>
-            <h3>Cars Management</h3>
-            <p>
-              Full-stack application for managing cars, brands, owners, and
-              accessories, with CRUD, authentication, and role-based
-              permissions. Deployed on Vercel (frontend) and Render (backend).
-            </p>
-            <ul class="project-list">
-              <li>
-                Full CRUD for cars, brands, owners, and accessories with MySQL
-                database.
-              </li>
-              <li>
-                Frontend built with Angular and MDB Angular UI Kit, with
-                responsive forms and lists.
-              </li>
-              <li>
-                Backend built with Spring Boot, including JWT authentication,
-                validation, and centralized error handling.
-              </li>
-              <li>Integration between frontend and backend via REST APIs.</li>
-              <li>
-                Deployment practice on AWS, with backend on Render and frontend
-                on Vercel.
-              </li>
-            </ul>
-            <div class="tech">
-              <p>Angular | TypeScript | SCSS | Spring Boot | MySQL | JWT</p>
-            </div>
-            <div class="live-github">
-              <a
-                href="https://cars-management-drab.vercel.app/login"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fa-solid fa-arrow-left"></i
-                ><span>Project Page</span></a
-              >
-              <a
-                href="https://github.com/pitercoding/cars-management"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fa-brands fa-github"></i
-                ><span>Github Repository</span></a
-              >
-            </div>
-          </div>
-
-          <div class="portfolio-detail">
-            <p class="numb">02</p>
-            <h3>Brincadeiras</h3>
-            <p>
-              App to search and generate creative activity ideas for children,
-              encouraging free play and creativity. Integrated with AI for
-              automatic activity generation.
-            </p>
-            <ul class="project-list">
-              <li>Filter activities by title, age group, and materials.</li>
-              <li>
-                Create, edit, and view activity details through the React
-                frontend.
-              </li>
-              <li>
-                Backend integration (Spring Boot) with MongoDB Atlas for data
-                storage.
-              </li>
-              <li>Automatic activity generation using OpenAI GPT-3.5.</li>
-              <li>
-                Deployment: backend on Render (hibernates on free tier) and
-                frontend on Vercel.
-              </li>
-            </ul>
-            <div class="tech">
-              <p>
-                React | Vite | CSS3 | Spring Boot | MongoDB | OpenAI GPT-3.5
-              </p>
-            </div>
-            <div class="live-github">
-              <a
-                href="https://brincadeiras-backend.onrender.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fa-solid fa-arrow-left"></i
-                ><span>Project Page</span></a
-              >
-              <a
-                href="https://github.com/pitercoding/brincadeiras"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fa-brands fa-github"></i
-                ><span>Github Repository</span></a
-              >
-            </div>
-          </div>
-
-          <div class="portfolio-detail">
-            <p class="numb">03</p>
-            <h3>Fitness Tracker</h3>
-            <p>
-              Full-stack app to track workouts, activities, and personal goals.
-              Users can log entries, set goals, and visualize progress with
-              dynamic charts.
-            </p>
-            <ul class="project-list">
-              <li>
-                Log workouts, activities, and personal goals with forms and
-                validation.
-              </li>
-              <li>
-                Dynamic dashboard displaying statistics and progress using
-                Chart.js.
-              </li>
-              <li>
-                Backend integration with Spring Boot REST APIs and MySQL
-                database.
-              </li>
-              <li>
-                CRUD operations for workouts, activities, goals, and stats.
-              </li>
-              <li>
-                Frontend developed in Angular with Ng Zorro UI components and
-                responsive layouts.
-              </li>
-            </ul>
-            <div class="tech">
-              <p>
-                Angular | TypeScript | SCSS | Chart.js | Spring Boot | MySQL
-              </p>
-            </div>
-            <div class="live-github">
-              <a
-                href="https://github.com/pitercoding/fitness-tracker-app"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fa-solid fa-arrow-left"></i
-                ><span>Project Page</span></a
-              >
-              <a
-                href="https://github.com/pitercoding/fitness-tracker-app"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fa-brands fa-github"></i
-                ><span>Github Repository</span></a
-              >
-            </div>
-          </div>
-
-          <div class="portfolio-detail">
-            <p class="numb">04</p>
-            <h3>Pizzaria Olivetto</h3>
-            <p>
-              Modern, responsive, and elegant website for a fictional artisanal
-              pizzeria. Built to practice Next.js, TailwindCSS, and Vercel
-              deployment.
-            </p>
-            <ul class="project-list">
-              <li>
-                Dynamic, modular React components for Header, Hero, Menu,
-                Drinks, FAQ, and Footer.
-              </li>
-              <li>
-                Responsive layout with mobile-first design and hamburger menu
-                navigation.
-              </li>
-              <li>
-                Online reservation form integrated via Formspree (1–10 people).
-              </li>
-              <li>PDF menu and drinks menu accessible directly on the site.</li>
-              <li>
-                SEO optimized with meta tags and Open Graph image for sharing.
-              </li>
-              <li>Deployed on Vercel with automatic CI/CD from GitHub.</li>
-            </ul>
-            <div class="tech">
-              <p>Next.js | React | TailwindCSS | Formspree | Vercel</p>
-            </div>
-            <div class="live-github">
-              <a
-                href="https://pizzaria-olivetto.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fa-solid fa-arrow-left"></i
-                ><span>Project Page</span></a
-              >
-              <a
-                href="https://github.com/pitercoding/pizzaria-olivetto"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fa-brands fa-github"></i
-                ><span>Github Repository</span></a
-              >
-            </div>
-          </div>
-
-          <div class="portfolio-detail">
-            <p class="numb">05</p>
-            <h3>Customer Manager App</h3>
-            <p>
-              Full-stack application for managing customers efficiently with
-              CRUD operations, built with Angular and Spring Boot, connected to
-              PostgreSQL.
-            </p>
-            <ul class="project-list">
-              <li>
-                Complete CRUD: Create, Read, Update, Delete customers via
-                Angular frontend.
-              </li>
-              <li>
-                Reactive forms with validation and pre-filled data for updates.
-              </li>
-              <li>Responsive UI with modern design.</li>
-              <li>
-                Backend REST API with Spring Boot, validation, and centralized
-                error handling.
-              </li>
-              <li>
-                Integration with PostgreSQL database for persistent data
-                storage.
-              </li>
-              <li>
-                Tested API endpoints with Postman and Angular
-                HttpClientTestingModule.
-              </li>
-              <li>
-                Component-based architecture for maintainability and
-                scalability.
-              </li>
-            </ul>
-            <div class="tech">
-              <p>
-                Angular | TypeScript | SCSS | Spring Boot | Java | PostgreSQL
-              </p>
-            </div>
-            <div class="live-github">
-              <a
-                href="https://customer-manager-app-three.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fa-solid fa-arrow-left"></i
-                ><span>Project Page</span></a
-              >
-              <a
-                href="https://github.com/pitercoding/customer-manager-app"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fa-brands fa-github"></i
-                ><span>Github Repository</span></a
-              >
-            </div>
-          </div>
-
-          <div class="portfolio-detail">
-            <p class="numb">06</p>
-            <h3>Springular AI</h3>
-            <p>
-              Springular AI is a <strong>full-stack AI chat app</strong> built
-              with Spring AI (Java) on the backend and Angular on the frontend.
-              It includes a stateless simple chat and a memory chat with
-              conversation history stored in a database.
-            </p>
-            <ul class="project-list">
-              <li>Simple chat (stateless) and memory chat (persisted).</li>
-              <li>Spring AI integration with OpenAI models.</li>
-              <li>Chat memory persisted with MySQL.</li>
-              <li>Angular standalone components with Signals and Effects.</li>
-              <li>Clean backend architecture with RESTful APIs.</li>
-              <li>Docker Compose for local database setup.</li>
-            </ul>
-            <div class="tech">
-              <p>
-                Java | Spring Boot | Spring AI | OpenAI | Angular | TypeScript |
-                MySQL | Docker
-              </p>
-            </div>
-            <div class="live-github">
-              <a
-                href="https://github.com/pitercoding/springular-ai"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fa-solid fa-arrow-left"></i
-                ><span>Project Page</span></a
-              >
-              <a
-                href="https://github.com/pitercoding/springular-ai"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fa-brands fa-github"></i
-                ><span>Github Repository</span></a
-              >
-            </div>
-          </div>
-
-          <div class="portfolio-detail">
-            <p class="numb">07</p>
-            <h3>Next.js CRUD with Firebase</h3>
-            <p>
-              Client management system built with Next.js, Tailwind CSS, and
-              Firebase Firestore. Allows adding, editing, deleting, and listing
-              clients with responsive design and reusable components.
-            </p>
-            <ul class="project-list">
-              <li>
-                Full CRUD operations (Create, Read, Update, Delete) with
-                Firestore.
-              </li>
-              <li>
-                Responsive layout with Tailwind CSS for mobile and desktop.
-              </li>
-              <li>
-                Reusable components: Buttons, Forms, Tables, Layouts, Titles,
-                Icons.
-              </li>
-              <li>
-                Custom React hooks for state and CRUD logic (`useClientes`,
-                `useTabelaOuForm`).
-              </li>
-              <li>Environment variables securely managed via `.env.local`.</li>
-              <li>Modern Next.js architecture with clean folder structure.</li>
-              <li>
-                Integration with Firebase Firestore for persistent storage.
-              </li>
-            </ul>
-            <div class="tech">
-              <p>
-                Next.js | React | Firebase | Tailwind CSS | TypeScript | PostCSS
-              </p>
-            </div>
-            <div class="live-github">
-              <a
-                href="https://next-crud-firebasedb.vercel.app"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fa-solid fa-arrow-left"></i
-                ><span>Project Page</span></a
-              >
-              <a
-                href="https://github.com/pitercoding/next-crud"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fa-brands fa-github"></i
-                ><span>Github Repository</span></a
-              >
-            </div>
-          </div>
-
-          <div class="portfolio-detail">
-            <p class="numb">08</p>
-            <h3>Worklog</h3>
-            <p>
-              Full-stack application for daily activity tracking, allowing employees to register tasks by Program, Team,
-              Language, Activity, and Subactivity with automatic time tracking.
-            </p>
-            <ul class="project-list">
-              <li>
-                Starts a new activity while automatically closing the currently
-                running one.
-              </li>
-              <li>
-                The <strong>Save Day</strong> action finalizes the workday and
-                closes any open activity.
-              </li>
-              <li>
-                Daily history showing activity durations and highlighting the
-                currently running task.
-              </li>
-              <li>
-                Backend business rules ensure only one open activity at a time
-                and one workday per employee per date.
-              </li>
-              <li>
-                Lookup APIs for programs, teams, languages, activities, and
-                dependent subactivities.
-              </li>
-              <li>
-                Global API exception handling with standardized error responses
-                and frontend toast notifications.
-              </li>
-              <li>
-                Responsive and modern UI.
-              </li>
-            </ul>
-            <div class="tech">
-              <p>
-                Java | Spring Boot | PostgreSQL | Angular | TypeScript | SCSS |
-                RxJS
-              </p>
-            </div>
-            <div class="live-github">
-              <a
-                href="https://github.com/pitercoding/worklog"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fa-solid fa-arrow-left"></i
-                ><span>Project Page</span></a
-              >
-              <a
-                href="https://github.com/pitercoding/worklog"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fa-brands fa-github"></i
-                ><span>Github Repository</span></a
-              >
-            </div>
-          </div>
-
-          <div class="portfolio-detail">
-            <p class="numb">09</p>
-            <h3>Other Projects</h3>
-            <p>
-              Smaller and older projects showcasing my early experiments with
-              Java, Python, and web development. Click on the links to view the
-              GitHub repositories.
-            </p>
-
-            <ul class="project-list">
-              <li>
-                <strong>Contacts Manager</strong> | Python | CLI
-                <a
-                  href="https://github.com/pitercoding/gerenciador-de-contatos"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><i
-                    class="fa-brands fa-github"
-                    style="color: rgb(4, 190, 252)"
-                  ></i
-                ></a>
-              </li>
-              <li>
-                <strong>QRCode Generator</strong> | VueJS 2 | HTML5 | CSS |
-                QRious
-                <a
-                  href="https://github.com/pitercoding/qrcode-generator"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><i class="fa-brands fa-github" style="color: #42b883"></i
-                ></a>
-              </li>
-              <li>
-                <strong>Front-End & Back-End Integration</strong> | HTML | CSS |
-                JS | Java | Spring Boot
-                <a
-                  href="https://github.com/pitercoding/integracao-backend-frontend"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><i class="fa-brands fa-github" style="color: #8b4513"></i
-                ></a>
-              </li>
-              <li>
-                <strong>Swing Calculator</strong> | Java | Swing
-                <a
-                  href="https://github.com/pitercoding/calculadora-swing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><i class="fa-brands fa-github" style="color: #8b4513"></i
-                ></a>
-              </li>
-              <li>
-                <strong>Minesweeper Swing</strong> | Java | Swing
-                <a
-                  href="https://github.com/pitercoding/campo-minado-swing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><i class="fa-brands fa-github" style="color: #8b4513"></i
-                ></a>
-              </li>
-              <li>
-                <strong>JavaFX Login Screen</strong> | Java | JavaFX
-                <a
-                  href="https://github.com/pitercoding/tela-de-login-javafx"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><i class="fa-brands fa-github" style="color: #8b4513"></i
-                ></a>
-              </li>
-              <li>
-                <strong>Library System</strong> | Java | MySQL
-                <a
-                  href="https://github.com/pitercoding/sistema-de-biblioteca"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><i class="fa-brands fa-github" style="color: #8b4513"></i
-                ></a>
-              </li>
-              <li>
-                <strong>Zoologic</strong> | Java
-                <a
-                  href="https://github.com/pitercoding/zoologic"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><i class="fa-brands fa-github" style="color: #8b4513"></i
-                ></a>
-              </li>
-              <li>
-                <strong>Userbase</strong> | Java | Spring Boot | H2
-                <a
-                  href="https://github.com/pitercoding/userbase"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><i class="fa-brands fa-github" style="color: #8b4513"></i
-                ></a>
-              </li>
-              <li>
-                <strong>The Terminal Awakens</strong> | Java | Terminal RPG
-                <a
-                  href="https://github.com/pitercoding/the-terminal-awakens"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><i class="fa-brands fa-github" style="color: #8b4513"></i
-                ></a>
-              </li>
-              <li>
-                <strong>Spotify Player Clone</strong> | HTML5 | CSS3 | JS
-                <a
-                  href="https://github.com/pitercoding/spotify-player-clone"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><i class="fa-brands fa-github" style="color: goldenrod"></i
-                ></a>
-              </li>
-              <li>
-                <strong>Magazine E-commerce</strong> | HTML5 | Tailwind CSS3 |
-                JS
-                <a
-                  href="https://github.com/pitercoding/magazine-e-commerce"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><i class="fa-brands fa-github" style="color: goldenrod"></i
-                ></a>
-              </li>
-              <li>
-                <strong>Gig-Tracker</strong> | HTML5 | CSS3 | JS
-                <a
-                  href="https://github.com/pitercoding/gig-tracker"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><i class="fa-brands fa-github" style="color: goldenrod"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="portfolio-box">
-          <!-- Images Carousel -->
-          <div class="portfolio-carousel">
-            <div class="img-slide">
-              <div class="img-item">
-                <img src="\images\projeto1.jpg" alt="Cars Management" />
-              </div>
-              <div class="img-item">
-                <img src="\images\projeto2.jpg" alt="Brincadeiras" />
-              </div>
-              <div class="img-item">
-                <img src="\images\projeto3.jpg" alt="Fitness Tracker" />
-              </div>
-              <div class="img-item">
-                <img src="\images\projeto4.jpg" alt="Pizzaria Olivetto" />
-              </div>
-              <div class="img-item">
-                <img src="\images\projeto5.jpg" alt="Customer Manager App" />
-              </div>
-              <div class="img-item">
-                <img src="\images\projeto6.jpg" alt="Springular AI" />
-              </div>
-              <div class="img-item">
-                <img
-                  src="\images\projeto7.jpg"
-                  alt="Next.js CRUD with Firebase"
-                />
-              </div>
-              <div class="img-item">
-                <img src="\images\projeto8.jpg" alt="GigTracker" />
-              </div>
-              <div class="img-item">
-                <img src="\images\projeto9.jpg" alt="Other Projects" />
-              </div>
-            </div>
-          </div>
-
-          <div class="navigation">
-            <button class="arrow-left">
-              <i class="fa-solid fa-chevron-left"></i>
-            </button>
-            <button class="arrow-right">
-              <i class="fa-solid fa-chevron-right"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Focus section -->
-    <section class="services">
-      <h2 class="heading">Areas of <span>Focus</span></h2>
-      <div class="services-container">
-        <div class="services-box">
-          <div class="icon">
-            <i class="fa-solid fa-code"></i>
-          </div>
-          <h3>Web Development</h3>
-          <p>
-            Building responsive websites and applications using modern web
-            technologies, with an emphasis on clean code, usability, and
-            functional solutions.
-          </p>
-        </div>
-
-        <div class="services-box">
-          <div class="icon">
-            <i class="fa-solid fa-database"></i>
-          </div>
-          <h3>Backend Development</h3>
-          <p>
-            Focused on <strong>Java and Spring Boot</strong>, with experience in
-            designing and implementing <strong>RESTful APIs</strong>, data
-            integration, and applying best practices to support scalable
-            full-stack applications.
-          </p>
-        </div>
-
-        <div class="services-box">
-          <div class="icon">
-            <i class="fa-solid fa-lightbulb"></i>
-          </div>
-          <h3>Problem Solving</h3>
-          <p>
-            Applying logical thinking along with object-oriented and functional
-            programming principles to analyze problems and develop structured,
-            effective solutions.
-          </p>
-        </div>
-
-        <div class="services-box">
-          <div class="icon">
-            <i class="fa-solid fa-screwdriver-wrench"></i>
-          </div>
-          <h3>Maintenance & Optimization</h3>
-          <p>
-            Dedicated to improving application performance, identifying and
-            fixing issues, and applying optimization and SEO best practices to
-            ensure efficient performance and better visibility.
-          </p>
-        </div>
-
-        <div class="services-box">
-          <div class="icon">
-            <i class="fa-solid fa-pencil-ruler"></i>
-          </div>
-          <h3>UI/UX Design</h3>
-          <p>
-            Designing clean and user-friendly interfaces based on established
-            design principles, with attention to layout, usability, and
-            accessibility to enhance the user experience.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- contact section -->
-    <section class="contact">
-      <div class="contact-container">
-        <div class="contact-box">
-          <h2>Let's Work Together</h2>
-          <p>
-            I’m always open to new opportunities, collaborations, or just a good
-            conversation about technology and innovation. If you’d like to
-            discuss a project, share ideas, or simply connect, feel free to
-            reach out!
-          </p>
-
-          <div class="contact-detail">
-            <i class="fa-solid fa-envelope"></i>
-            <div class="detail">
-              <p>Email</p>
-              <p>piterg.bio@gmail.com</p>
-            </div>
-          </div>
-
-          <div class="contact-detail">
-            <i class="fa-solid fa-location-dot"></i>
-            <div class="detail">
-              <p>Address</p>
-              <p>Münster (Germany)</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="contact-box">
-          <form action="https://formspree.io/f/meolpbwn" method="POST">
-            <h2 class="heading">Contact<span>Me!</span></h2>
-            <div class="field-box">
-              <input type="text" name="name" placeholder="Full Name" required />
-              <input
-                type="email"
-                name="email"
-                placeholder="Email Address"
-                required
-              />
-              <input type="tel" name="phone" placeholder="Phone Number" />
-              <input
-                type="text"
-                name="subject"
-                placeholder="Email Subject"
-                required
-              />
-              <textarea
-                name="message"
-                placeholder="Your Message"
-                required
-              ></textarea>
-            </div>
-            <button type="submit" class="btn">Send Message</button>
-          </form>
-        </div>
-      </div>
-    </section>
-
-    <!-- custom js -->
-    <script src="js/script.js"></script>
-  </body>
 </html>
