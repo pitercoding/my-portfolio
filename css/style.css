@@ -459,6 +459,18 @@ p {
   color: #61dafb;
 }
 
+.icon-python {
+  color: #3776ab;
+}
+
+.icon-java {
+  color: #007396;
+}
+
+.icon-spring-boot {
+  color: #6db33f;
+}
+
 .icon-typescript {
   color: #3178c6;
 }
@@ -469,6 +481,10 @@ p {
 
 .icon-nextjs {
   color: #ffffff;
+}
+
+.icon-angular {
+  color: #dd0031;
 }
 
 .icon-html5 {
