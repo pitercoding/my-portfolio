@@ -386,281 +386,55 @@
       <div class="portfolio-box">
         <div class="portfolio-detail active">
           <p class="numb">01</p>
-          <h3>Cars Management</h3>
+          <h3>MindK AI</h3>
           <p>
-            Full-stack application for managing cars, brands, owners, and
-            accessories, with CRUD, authentication, and role-based
-            permissions. Deployed on Vercel (frontend) and Render (backend).
+            Knowledge-management app for writing notes, uploading documents,
+            and chatting with an AI assistant that answers grounded in that
+            content through a real Retrieval-Augmented Generation (RAG)
+            pipeline, instead of a thin wrapper around a chat API.
           </p>
           <ul class="project-list">
             <li>
-              Full CRUD for cars, brands, owners, and accessories with MySQL
-              database.
+              Notes and document upload (PDF, Markdown, plain text) organized
+              into a personal knowledge base.
             </li>
             <li>
-              Frontend built with Angular and MDB Angular UI Kit, with
-              responsive forms and lists.
+              Automatic chunking, embedding, and semantic search (cosine
+              similarity) over uploaded documents.
             </li>
             <li>
-              Backend built with Spring Boot, including JWT authentication,
-              validation, and centralized error handling.
+              AI chat grounded in a single note or the full knowledge base,
+              with cited sources and relevance scores.
             </li>
-            <li>Integration between frontend and backend via REST APIs.</li>
             <li>
-              Deployment practice on AWS, with backend on Render and frontend
-              on Vercel.
+              Authentication via Clerk with per-user data isolation enforced
+              at the database layer, verified by integration tests.
+            </li>
+            <li>
+              Layered Go backend (handlers → services → repositories) with
+              automated unit and integration tests.
+            </li>
+            <li>
+              REST API documented with Swagger/OpenAPI, plus Docker support
+              for the backend and PostgreSQL.
             </li>
           </ul>
           <div class="tech">
-            <p>Angular | TypeScript | SCSS | Spring Boot | MySQL | JWT</p>
+            <p>
+              React | TypeScript | Vite | Go | SQLite | PostgreSQL | OpenAI |
+              Clerk | Docker
+            </p>
           </div>
           <div class="live-github">
-            <a href="https://cars-management-drab.vercel.app/login" target="_blank" rel="noopener noreferrer"><i
+            <a href="https://mindk-ai-frontend.onrender.com/" target="_blank" rel="noopener noreferrer"><i
                 class="fa-solid fa-arrow-left"></i><span>Project Page</span></a>
-            <a href="https://github.com/pitercoding/cars-management" target="_blank" rel="noopener noreferrer"><i
+            <a href="https://github.com/pitercoding/mindk-ai" target="_blank" rel="noopener noreferrer"><i
                 class="fa-brands fa-github"></i><span>Github Repository</span></a>
           </div>
         </div>
 
         <div class="portfolio-detail">
           <p class="numb">02</p>
-          <h3>Brincadeiras</h3>
-          <p>
-            App to search and generate creative activity ideas for children,
-            encouraging free play and creativity. Integrated with AI for
-            automatic activity generation.
-          </p>
-          <ul class="project-list">
-            <li>Filter activities by title, age group, and materials.</li>
-            <li>
-              Create, edit, and view activity details through the React
-              frontend.
-            </li>
-            <li>
-              Backend integration (Spring Boot) with MongoDB Atlas for data
-              storage.
-            </li>
-            <li>Automatic activity generation using OpenAI GPT-3.5.</li>
-            <li>
-              Deployment: backend on Render (hibernates on free tier) and
-              frontend on Vercel.
-            </li>
-          </ul>
-          <div class="tech">
-            <p>
-              React | Vite | CSS3 | Spring Boot | MongoDB | OpenAI GPT-3.5
-            </p>
-          </div>
-          <div class="live-github">
-            <a href="https://brincadeiras-backend.onrender.com/" target="_blank" rel="noopener noreferrer"><i
-                class="fa-solid fa-arrow-left"></i><span>Project Page</span></a>
-            <a href="https://github.com/pitercoding/brincadeiras" target="_blank" rel="noopener noreferrer"><i
-                class="fa-brands fa-github"></i><span>Github Repository</span></a>
-          </div>
-        </div>
-
-        <div class="portfolio-detail">
-          <p class="numb">03</p>
-          <h3>Fitness Tracker</h3>
-          <p>
-            Full-stack app to track workouts, activities, and personal goals.
-            Users can log entries, set goals, and visualize progress with
-            dynamic charts.
-          </p>
-          <ul class="project-list">
-            <li>
-              Log workouts, activities, and personal goals with forms and
-              validation.
-            </li>
-            <li>
-              Dynamic dashboard displaying statistics and progress using
-              Chart.js.
-            </li>
-            <li>
-              Backend integration with Spring Boot REST APIs and MySQL
-              database.
-            </li>
-            <li>
-              CRUD operations for workouts, activities, goals, and stats.
-            </li>
-            <li>
-              Frontend developed in Angular with Ng Zorro UI components and
-              responsive layouts.
-            </li>
-          </ul>
-          <div class="tech">
-            <p>
-              Angular | TypeScript | SCSS | Chart.js | Spring Boot | MySQL
-            </p>
-          </div>
-          <div class="live-github">
-            <a href="https://github.com/pitercoding/fitness-tracker-app" target="_blank" rel="noopener noreferrer"><i
-                class="fa-solid fa-arrow-left"></i><span>Project Page</span></a>
-            <a href="https://github.com/pitercoding/fitness-tracker-app" target="_blank" rel="noopener noreferrer"><i
-                class="fa-brands fa-github"></i><span>Github Repository</span></a>
-          </div>
-        </div>
-
-        <div class="portfolio-detail">
-          <p class="numb">04</p>
-          <h3>Pizzaria Olivetto</h3>
-          <p>
-            Modern, responsive, and elegant website for a fictional artisanal
-            pizzeria. Built to practice Next.js, TailwindCSS, and Vercel
-            deployment.
-          </p>
-          <ul class="project-list">
-            <li>
-              Dynamic, modular React components for Header, Hero, Menu,
-              Drinks, FAQ, and Footer.
-            </li>
-            <li>
-              Responsive layout with mobile-first design and hamburger menu
-              navigation.
-            </li>
-            <li>
-              Online reservation form integrated via Formspree (1–10 people).
-            </li>
-            <li>PDF menu and drinks menu accessible directly on the site.</li>
-            <li>
-              SEO optimized with meta tags and Open Graph image for sharing.
-            </li>
-            <li>Deployed on Vercel with automatic CI/CD from GitHub.</li>
-          </ul>
-          <div class="tech">
-            <p>Next.js | React | TailwindCSS | Formspree | Vercel</p>
-          </div>
-          <div class="live-github">
-            <a href="https://pizzaria-olivetto.vercel.app/" target="_blank" rel="noopener noreferrer"><i
-                class="fa-solid fa-arrow-left"></i><span>Project Page</span></a>
-            <a href="https://github.com/pitercoding/pizzaria-olivetto" target="_blank" rel="noopener noreferrer"><i
-                class="fa-brands fa-github"></i><span>Github Repository</span></a>
-          </div>
-        </div>
-
-        <div class="portfolio-detail">
-          <p class="numb">05</p>
-          <h3>Customer Manager App</h3>
-          <p>
-            Full-stack application for managing customers efficiently with
-            CRUD operations, built with Angular and Spring Boot, connected to
-            PostgreSQL.
-          </p>
-          <ul class="project-list">
-            <li>
-              Complete CRUD: Create, Read, Update, Delete customers via
-              Angular frontend.
-            </li>
-            <li>
-              Reactive forms with validation and pre-filled data for updates.
-            </li>
-            <li>Responsive UI with modern design.</li>
-            <li>
-              Backend REST API with Spring Boot, validation, and centralized
-              error handling.
-            </li>
-            <li>
-              Integration with PostgreSQL database for persistent data
-              storage.
-            </li>
-            <li>
-              Tested API endpoints with Postman and Angular
-              HttpClientTestingModule.
-            </li>
-            <li>
-              Component-based architecture for maintainability and
-              scalability.
-            </li>
-          </ul>
-          <div class="tech">
-            <p>
-              Angular | TypeScript | SCSS | Spring Boot | Java | PostgreSQL
-            </p>
-          </div>
-          <div class="live-github">
-            <a href="https://customer-manager-app-three.vercel.app/" target="_blank" rel="noopener noreferrer"><i
-                class="fa-solid fa-arrow-left"></i><span>Project Page</span></a>
-            <a href="https://github.com/pitercoding/customer-manager-app" target="_blank" rel="noopener noreferrer"><i
-                class="fa-brands fa-github"></i><span>Github Repository</span></a>
-          </div>
-        </div>
-
-        <div class="portfolio-detail">
-          <p class="numb">06</p>
-          <h3>Springular AI</h3>
-          <p>
-            Springular AI is a <strong>full-stack AI chat app</strong> built
-            with Spring AI (Java) on the backend and Angular on the frontend.
-            It includes a stateless simple chat and a memory chat with
-            conversation history stored in a database.
-          </p>
-          <ul class="project-list">
-            <li>Simple chat (stateless) and memory chat (persisted).</li>
-            <li>Spring AI integration with OpenAI models.</li>
-            <li>Chat memory persisted with MySQL.</li>
-            <li>Angular standalone components with Signals and Effects.</li>
-            <li>Clean backend architecture with RESTful APIs.</li>
-            <li>Docker Compose for local database setup.</li>
-          </ul>
-          <div class="tech">
-            <p>
-              Java | Spring Boot | Spring AI | OpenAI | Angular | TypeScript |
-              MySQL | Docker
-            </p>
-          </div>
-          <div class="live-github">
-            <a href="https://github.com/pitercoding/springular-ai" target="_blank" rel="noopener noreferrer"><i
-                class="fa-solid fa-arrow-left"></i><span>Project Page</span></a>
-            <a href="https://github.com/pitercoding/springular-ai" target="_blank" rel="noopener noreferrer"><i
-                class="fa-brands fa-github"></i><span>Github Repository</span></a>
-          </div>
-        </div>
-
-        <div class="portfolio-detail">
-          <p class="numb">07</p>
-          <h3>Next.js CRUD with Firebase</h3>
-          <p>
-            Client management system built with Next.js, Tailwind CSS, and
-            Firebase Firestore. Allows adding, editing, deleting, and listing
-            clients with responsive design and reusable components.
-          </p>
-          <ul class="project-list">
-            <li>
-              Full CRUD operations (Create, Read, Update, Delete) with
-              Firestore.
-            </li>
-            <li>
-              Responsive layout with Tailwind CSS for mobile and desktop.
-            </li>
-            <li>
-              Reusable components: Buttons, Forms, Tables, Layouts, Titles,
-              Icons.
-            </li>
-            <li>
-              Custom React hooks for state and CRUD logic (`useClientes`,
-              `useTabelaOuForm`).
-            </li>
-            <li>Environment variables securely managed via `.env.local`.</li>
-            <li>Modern Next.js architecture with clean folder structure.</li>
-            <li>
-              Integration with Firebase Firestore for persistent storage.
-            </li>
-          </ul>
-          <div class="tech">
-            <p>
-              Next.js | React | Firebase | Tailwind CSS | TypeScript | PostCSS
-            </p>
-          </div>
-          <div class="live-github">
-            <a href="https://next-crud-firebasedb.vercel.app" target="_blank" rel="noopener noreferrer"><i
-                class="fa-solid fa-arrow-left"></i><span>Project Page</span></a>
-            <a href="https://github.com/pitercoding/next-crud" target="_blank" rel="noopener noreferrer"><i
-                class="fa-brands fa-github"></i><span>Github Repository</span></a>
-          </div>
-        </div>
-
-        <div class="portfolio-detail">
-          <p class="numb">08</p>
           <h3>Worklog</h3>
           <p>
             Full-stack application for daily activity tracking, allowing employees to register tasks by Program, Team,
@@ -710,61 +484,95 @@
         </div>
 
         <div class="portfolio-detail">
-          <p class="numb">09</p>
+          <p class="numb">03</p>
+          <h3>Brincadeiras</h3>
+          <p>
+            App to search and generate creative activity ideas for children,
+            encouraging free play and creativity. Integrated with AI for
+            automatic activity generation.
+          </p>
+          <ul class="project-list">
+            <li>Filter activities by title, age group, and materials.</li>
+            <li>
+              Create, edit, and view activity details through the React
+              frontend.
+            </li>
+            <li>
+              Backend integration (Spring Boot) with MongoDB Atlas for data
+              storage.
+            </li>
+            <li>Automatic activity generation using OpenAI GPT-3.5.</li>
+            <li>
+              Deployment: backend on Render (hibernates on free tier) and
+              frontend on Vercel.
+            </li>
+          </ul>
+          <div class="tech">
+            <p>
+              React | Vite | CSS3 | Java | Spring Boot | MongoDB | OpenAI GPT-3.5
+            </p>
+          </div>
+          <div class="live-github">
+            <a href="https://brincadeiras-backend.onrender.com/" target="_blank" rel="noopener noreferrer"><i
+                class="fa-solid fa-arrow-left"></i><span>Project Page</span></a>
+            <a href="https://github.com/pitercoding/brincadeiras" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-github"></i><span>Github Repository</span></a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">04</p>
+          <h3>Cars Management</h3>
+          <p>
+            Full-stack application for managing cars, brands, owners, and
+            accessories, with CRUD, authentication, and role-based
+            permissions. Deployed on Vercel (frontend) and Render (backend).
+          </p>
+          <ul class="project-list">
+            <li>
+              Full CRUD for cars, brands, owners, and accessories with MySQL
+              database.
+            </li>
+            <li>
+              Frontend built with Angular and MDB Angular UI Kit, with
+              responsive forms and lists.
+            </li>
+            <li>
+              Backend built with Spring Boot, including JWT authentication,
+              validation, and centralized error handling.
+            </li>
+            <li>Integration between frontend and backend via REST APIs.</li>
+            <li>
+              Deployment practice on AWS, with backend on Render and frontend
+              on Vercel.
+            </li>
+          </ul>
+          <div class="tech">
+            <p>Angular | TypeScript | SCSS | Java | Spring Boot | MySQL | JWT</p>
+          </div>
+          <div class="live-github">
+            <a href="https://cars-management-drab.vercel.app/login" target="_blank" rel="noopener noreferrer"><i
+                class="fa-solid fa-arrow-left"></i><span>Project Page</span></a>
+            <a href="https://github.com/pitercoding/cars-management" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-github"></i><span>Github Repository</span></a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">05</p>
           <h3>Other Projects</h3>
           <p>
-            Smaller and older projects showcasing my early experiments with
-            Java, Python, and web development. Click on the links to view the
-            GitHub repositories.
+            Additional projects covering AI integration, full-stack CRUD
+            applications, and a terminal-based game. Click on the links to
+            view the GitHub repositories.
           </p>
 
           <ul class="project-list">
             <li>
-              <strong>Contacts Manager</strong> | Python | CLI
-              <a href="https://github.com/pitercoding/gerenciador-de-contatos" target="_blank"
-                rel="noopener noreferrer"><i class="fa-brands fa-github" style="color: rgb(4, 190, 252)"></i></a>
-            </li>
-            <li>
-              <strong>QRCode Generator</strong> | VueJS 2 | HTML5 | CSS |
-              QRious
-              <a href="https://github.com/pitercoding/qrcode-generator" target="_blank" rel="noopener noreferrer"><i
-                  class="fa-brands fa-github" style="color: #42b883"></i></a>
-            </li>
-            <li>
-              <strong>Front-End & Back-End Integration</strong> | HTML | CSS |
-              JS | Java | Spring Boot
-              <a href="https://github.com/pitercoding/integracao-backend-frontend" target="_blank"
-                rel="noopener noreferrer"><i class="fa-brands fa-github" style="color: #8b4513"></i></a>
-            </li>
-            <li>
-              <strong>Swing Calculator</strong> | Java | Swing
-              <a href="https://github.com/pitercoding/calculadora-swing" target="_blank" rel="noopener noreferrer"><i
-                  class="fa-brands fa-github" style="color: #8b4513"></i></a>
-            </li>
-            <li>
-              <strong>Minesweeper Swing</strong> | Java | Swing
-              <a href="https://github.com/pitercoding/campo-minado-swing" target="_blank" rel="noopener noreferrer"><i
-                  class="fa-brands fa-github" style="color: #8b4513"></i></a>
-            </li>
-            <li>
-              <strong>JavaFX Login Screen</strong> | Java | JavaFX
-              <a href="https://github.com/pitercoding/tela-de-login-javafx" target="_blank" rel="noopener noreferrer"><i
-                  class="fa-brands fa-github" style="color: #8b4513"></i></a>
-            </li>
-            <li>
-              <strong>Library System</strong> | Java | MySQL
-              <a href="https://github.com/pitercoding/sistema-de-biblioteca" target="_blank"
-                rel="noopener noreferrer"><i class="fa-brands fa-github" style="color: #8b4513"></i></a>
-            </li>
-            <li>
-              <strong>Zoologic</strong> | Java
-              <a href="https://github.com/pitercoding/zoologic" target="_blank" rel="noopener noreferrer"><i
-                  class="fa-brands fa-github" style="color: #8b4513"></i></a>
-            </li>
-            <li>
-              <strong>Userbase</strong> | Java | Spring Boot | H2
-              <a href="https://github.com/pitercoding/userbase" target="_blank" rel="noopener noreferrer"><i
-                  class="fa-brands fa-github" style="color: #8b4513"></i></a>
+              <strong>Springular AI</strong> | Java | Spring Boot | Spring AI
+              | Angular
+              <a href="https://github.com/pitercoding/springular-ai" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-github" style="color: #6db33f"></i></a>
             </li>
             <li>
               <strong>The Terminal Awakens</strong> | Java | Terminal RPG
@@ -772,20 +580,20 @@
                   class="fa-brands fa-github" style="color: #8b4513"></i></a>
             </li>
             <li>
-              <strong>Spotify Player Clone</strong> | HTML5 | CSS3 | JS
-              <a href="https://github.com/pitercoding/spotify-player-clone" target="_blank" rel="noopener noreferrer"><i
-                  class="fa-brands fa-github" style="color: goldenrod"></i></a>
+              <strong>Fitness Tracker</strong> | Angular | Java | Spring Boot | MySQL
+              <a href="https://github.com/pitercoding/fitness-tracker-app" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-github" style="color: #dd0031"></i></a>
             </li>
             <li>
-              <strong>Magazine E-commerce</strong> | HTML5 | Tailwind CSS3 |
-              JS
-              <a href="https://github.com/pitercoding/magazine-e-commerce" target="_blank" rel="noopener noreferrer"><i
-                  class="fa-brands fa-github" style="color: goldenrod"></i></a>
+              <strong>Pizzaria Olivetto</strong> | Next.js | TailwindCSS |
+              Vercel
+              <a href="https://github.com/pitercoding/pizzaria-olivetto" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-github" style="color: #ffffff"></i></a>
             </li>
             <li>
-              <strong>Gig-Tracker</strong> | HTML5 | CSS3 | JS
-              <a href="https://github.com/pitercoding/gig-tracker" target="_blank" rel="noopener noreferrer"><i
-                  class="fa-brands fa-github" style="color: goldenrod"></i></a>
+              <strong>Customer Manager App</strong> | Java | Spring Boot | Angular | PostgreSQL
+              <a href="https://github.com/pitercoding/customer-manager-app" target="_blank"
+                rel="noopener noreferrer"><i class="fa-brands fa-github" style="color: #336791"></i></a>
             </li>
           </ul>
         </div>
@@ -795,31 +603,19 @@
         <div class="portfolio-carousel">
           <div class="img-slide">
             <div class="img-item">
-              <img src="\images\projeto1.jpg" alt="Cars Management" />
+              <img src="\images\mindk-ai.png" alt="MindK AI" />
             </div>
             <div class="img-item">
-              <img src="\images\projeto2.jpg" alt="Brincadeiras" />
+              <img src="\images\worklog.png" alt="Worklog" />
             </div>
             <div class="img-item">
-              <img src="\images\projeto3.jpg" alt="Fitness Tracker" />
+              <img src="\images\brincadeiras.png" alt="Brincadeiras" />
             </div>
             <div class="img-item">
-              <img src="\images\projeto4.jpg" alt="Pizzaria Olivetto" />
+              <img src="\images\cars-management.png" alt="Cars Management" />
             </div>
             <div class="img-item">
-              <img src="\images\projeto5.jpg" alt="Customer Manager App" />
-            </div>
-            <div class="img-item">
-              <img src="\images\projeto6.jpg" alt="Springular AI" />
-            </div>
-            <div class="img-item">
-              <img src="\images\projeto7.jpg" alt="Next.js CRUD with Firebase" />
-            </div>
-            <div class="img-item">
-              <img src="\images\projeto8.jpg" alt="GigTracker" />
-            </div>
-            <div class="img-item">
-              <img src="\images\projeto9.jpg" alt="Other Projects" />
+              <img src="\images\others.jpg" alt="Other Projects" class="align-center" />
             </div>
           </div>
         </div>
