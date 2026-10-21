@@ -497,75 +497,97 @@
 
         <div class="portfolio-detail">
           <p class="numb">03</p>
-          <h3>Brincadeiras</h3>
+          <h3>Terminuler</h3>
           <p>
-            App to search and generate creative activity ideas for children,
-            encouraging free play and creativity. Integrated with AI for
-            automatic activity generation.
+            Full-stack appointment booking system where customers pick a
+            weekday, choose a free one-hour slot, and receive a confirmation
+            email, while an administrator manages bookings from a protected
+            dashboard.
           </p>
           <ul class="project-list">
-            <li>Filter activities by title, age group, and materials.</li>
             <li>
-              Create, edit, and view activity details through the React
-              frontend.
+              Public booking flow with available one-hour slots (Monday to
+              Friday), hiding booked and past slots.
             </li>
             <li>
-              Backend integration (Spring Boot) with MongoDB Atlas for data
-              storage.
+              Double booking prevented on the server with a partial unique
+              index, returning a clear conflict message to the customer.
             </li>
-            <li>Automatic activity generation using OpenAI GPT-3.5.</li>
             <li>
-              Deployment: backend on Render (hibernates on free tier) and
-              frontend on Vercel.
+              Admin dashboard protected by Clerk, with search, status filters,
+              and soft cancellation of appointments.
+            </li>
+            <li>
+              Confirmation and cancellation emails sent through Resend.
+            </li>
+            <li>
+              Layered Go REST API (handlers → services → repositories) with
+              rate limiting and embedded PostgreSQL migrations.
+            </li>
+            <li>
+              Go unit and integration tests plus Playwright end-to-end tests,
+              running in GitHub Actions.
             </li>
           </ul>
           <div class="tech">
             <p>
-              React | Vite | CSS3 | Java | Spring Boot | MongoDB | OpenAI GPT-3.5
+              Next.js | React | TypeScript | Tailwind CSS | Go | PostgreSQL |
+              Clerk | Resend | Docker
             </p>
           </div>
           <div class="live-github">
-            <a href="https://brincadeiras-backend.onrender.com/" target="_blank" rel="noopener noreferrer"><i
+            <a href="https://terminuler.vercel.app/" target="_blank" rel="noopener noreferrer"><i
                 class="fa-solid fa-arrow-left"></i><span>Project Page</span></a>
-            <a href="https://github.com/pitercoding/brincadeiras" target="_blank" rel="noopener noreferrer"><i
+            <a href="https://github.com/pitercoding/terminuler" target="_blank" rel="noopener noreferrer"><i
                 class="fa-brands fa-github"></i><span>Github Repository</span></a>
           </div>
         </div>
 
         <div class="portfolio-detail">
           <p class="numb">04</p>
-          <h3>Cars Management</h3>
+          <h3>Tickordo</h3>
           <p>
-            Full-stack application for managing cars, brands, owners, and
-            accessories, with CRUD, authentication, and role-based
-            permissions. Deployed on Vercel (frontend) and Render (backend).
+            AI-powered support ticket management and triage application that
+            asks an OpenAI model to suggest a category, priority, sentiment,
+            responsible team, summary, and next action for each ticket,
+            assisting support agents instead of replacing them.
           </p>
           <ul class="project-list">
             <li>
-              Full CRUD for cars, brands, owners, and accessories with MySQL
-              database.
+              Create and track tickets with search, filters by status, AI
+              priority and AI category, sorting, and pagination.
             </li>
             <li>
-              Frontend built with Angular and MDB Angular UI Kit, with
-              responsive forms and lists.
+              On-demand AI triage via the OpenAI Responses API with a strict
+              JSON schema for structured output.
             </li>
             <li>
-              Backend built with Spring Boot, including JWT authentication,
-              validation, and centralized error handling.
+              Re-analysis with a stored triage history, showing the latest
+              result first.
             </li>
-            <li>Integration between frontend and backend via REST APIs.</li>
             <li>
-              Deployment practice on AWS, with backend on Render and frontend
-              on Vercel.
+              Dashboard with open, high-priority, and AI-analyzed counters plus
+              a "Needs attention" list of urgent tickets.
+            </li>
+            <li>
+              AI cost controls: global triage quota, concurrency cap, output
+              token limit, timeouts, and per-IP rate limiting.
+            </li>
+            <li>
+              Layered Go REST API with automated tests (Go and Vitest) and CI
+              on GitHub Actions.
             </li>
           </ul>
           <div class="tech">
-            <p>Angular | TypeScript | SCSS | Java | Spring Boot | MySQL | JWT</p>
+            <p>
+              Next.js | React | TypeScript | Tailwind CSS | Go | PostgreSQL |
+              OpenAI | Docker
+            </p>
           </div>
           <div class="live-github">
-            <a href="https://cars-management-drab.vercel.app/login" target="_blank" rel="noopener noreferrer"><i
+            <a href="https://tickordo.vercel.app/" target="_blank" rel="noopener noreferrer"><i
                 class="fa-solid fa-arrow-left"></i><span>Project Page</span></a>
-            <a href="https://github.com/pitercoding/cars-management" target="_blank" rel="noopener noreferrer"><i
+            <a href="https://github.com/pitercoding/tickordo" target="_blank" rel="noopener noreferrer"><i
                 class="fa-brands fa-github"></i><span>Github Repository</span></a>
           </div>
         </div>
@@ -580,6 +602,18 @@
           </p>
 
           <ul class="project-list">
+            <li>
+              <strong>Brincadeiras</strong> | React | Java | Spring Boot |
+              MongoDB | OpenAI
+              <a href="https://github.com/pitercoding/brincadeiras" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-github" style="color: #47a248"></i></a>
+            </li>
+            <li>
+              <strong>Cars Management</strong> | Angular | Java | Spring Boot |
+              MySQL | JWT
+              <a href="https://github.com/pitercoding/cars-management" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-github" style="color: #00758f"></i></a>
+            </li>
             <li>
               <strong>Springular AI</strong> | Java | Spring Boot | Spring AI
               | Angular
@@ -621,10 +655,10 @@
               <img src="\images\worklog.png" alt="Worklog" />
             </div>
             <div class="img-item">
-              <img src="\images\brincadeiras.png" alt="Brincadeiras" />
+              <img src="\images\terminuler.png" alt="Terminuler" />
             </div>
             <div class="img-item">
-              <img src="\images\cars-management.png" alt="Cars Management" />
+              <img src="\images\tickordo.png" alt="Tickordo" />
             </div>
             <div class="img-item">
               <img src="\images\others.jpg" alt="Other Projects" class="align-center" />
